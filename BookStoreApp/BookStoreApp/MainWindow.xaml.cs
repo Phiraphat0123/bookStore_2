@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BookStoreApp.SQLite;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,6 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+
 namespace BookStoreApp
 {
     /// <summary>
@@ -20,9 +22,21 @@ namespace BookStoreApp
     /// </summary>
     public partial class MainWindow : Window
     {
+        //BookManagement bookManagement = new BookManagement();
         public MainWindow()
         {
             InitializeComponent();
+            //bookManagement = new BookManagement();
+            MainFrame.Source = new Uri("./allPage/MainMenu.xaml",UriKind.Relative); //ใชเเพื่อประกาศ Main frame
         }
+
+        //private void TESTING(object sender, RoutedEventArgs e)
+        //{
+            //bookManagement.AddData("1","super","hero","12.5");
+            //List<string> booksList =bookManagement.GetData();
+            //MessageBox.Show(string.Join(",\n",booksList));
+            //MainMenu mainMenu = new MainMenu();
+            //this.NavigationService.Navigate(mainMenu);
+        //}
     }
 }

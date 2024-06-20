@@ -1,0 +1,16 @@
+﻿<Page x:Class="BookStoreApp.allPage.BookManagement"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BookStoreApp.allPage"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="BookManagement">
+
+    <Grid Background="White">
+        <TextBlock HorizontalAlignment="Left" Margin="308,127,0,0" TextWrapping="Wrap" Text="Book Management" VerticalAlignment="Top" Height="63" Width="92"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="49" Margin="278,225,0,0" VerticalAlignment="Top" Width="248" Click="Button_Click"/>
+
+    </Grid>
+</Page>
