@@ -83,8 +83,32 @@
     <Compile Include="allPage\BookManagement.xaml.cs">
       <DependentUpon>BookManagement.xaml</DependentUpon>
     </Compile>
+    <Compile Include="allPage\BookManagementCreate.xaml.cs">
+      <DependentUpon>BookManagementCreate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="allPage\BookManagementEdit.xaml.cs">
+      <DependentUpon>BookManagementEdit.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="allPage\BookManagementList.xaml.cs">
+      <DependentUpon>BookManagementList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="allPage\CustomerManagement.xaml.cs">
+      <DependentUpon>CustomerManagement.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="allPage\LogIn.xaml.cs">
+      <DependentUpon>LogIn.xaml</DependentUpon>
+    </Compile>
     <Compile Include="allPage\MainMenu.xaml.cs">
       <DependentUpon>MainMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="allPage\Register.xaml.cs">
+      <DependentUpon>Register.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="allPage\Sales.xaml.cs">
+      <DependentUpon>Sales.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="allPage\SalesHistory.xaml.cs">
+      <DependentUpon>SalesHistory.xaml</DependentUpon>
     </Compile>
     <Compile Include="SQLite\BookManagement.cs" />
     <Compile Include="SQLite\DataAccess.cs" />
@@ -92,7 +116,39 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="allPage\BookManagementCreate.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="allPage\BookManagementEdit.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="allPage\BookManagementList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="allPage\CustomerManagement.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="allPage\LogIn.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="allPage\MainMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="allPage\Register.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="allPage\Sales.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="allPage\SalesHistory.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -135,6 +191,28 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icon\book.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icon\customer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icon\list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icon\sales.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="allPage\book.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="allPage\list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="allPage\sales.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

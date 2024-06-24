@@ -1,0 +1,85 @@
+﻿<Page x:Class="BookStoreApp.allPage.BookManagementCreate"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BookStoreApp.allPage"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="BookManagementCreate">
+
+    <Grid Background="#FFFFB4A2">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions >
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+            <RowDefinition Height="20" />
+
+        </Grid.RowDefinitions>
+        <!--Nav bar-->
+        <Grid Grid.Row="0" Background="#6D6875">
+            <TextBlock HorizontalAlignment="Left" Margin="30,0,0,0" TextWrapping="Wrap" Text="Flack Shop" VerticalAlignment="Center" FontSize="24" FontFamily="Mistral" Foreground="#FFFFB4A2" />
+        </Grid>
+        <!--Content-->
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <!--headder-->
+            <TextBlock Grid.Row="0" HorizontalAlignment="Center"  TextWrapping="Wrap" Text="Book Management" TextAlignment="Center" VerticalAlignment="Center" Width="248" FontSize="24" FontWeight="Bold"/>
+            <Button  Grid.Row="0" Content="Go back" HorizontalAlignment="Left" Margin="30,0,0,0" VerticalAlignment="Center" Background="#FFFFE1BA" BorderBrush="{x:Null}" FontSize="16" Padding="10,5,10,5" BorderThickness="0,0,0,0">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="20"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <!--input list-->
+            <Grid Grid.Row="1" Margin="0,20,0,20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <!--ISBN-->
+                <Grid Grid.Row="0" HorizontalAlignment="Center" Height="47"  VerticalAlignment="Center">
+                    <TextBox HorizontalAlignment="Center" Margin="0,18,0,0"  TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="296" BorderBrush="{x:Null}" FontSize="20" Background="#FF6D6875" Foreground="#FFFFCDB2"/>
+                    <TextBlock HorizontalAlignment="Left" Height="13" Margin="5,0,0,0" TextWrapping="Wrap" Text="ISBN" VerticalAlignment="Top"/>
+                </Grid>
+                <!--title-->
+                <Grid Grid.Row="1" HorizontalAlignment="Center" Height="50"  VerticalAlignment="Center">
+                    <TextBox HorizontalAlignment="Center" Margin="0,21,0,0"  TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="296" BorderBrush="{x:Null}" FontSize="20" Background="#FF6D6875" Foreground="#FFFFCDB2"/>
+                    <TextBlock HorizontalAlignment="Left" Height="13" Margin="5,0,0,0" TextWrapping="Wrap" Text="Title" VerticalAlignment="Top"/>
+                </Grid>
+                <!--description-->
+                <Grid Grid.Row="2" HorizontalAlignment="Center" Height="51"  VerticalAlignment="Center">
+                    <TextBox HorizontalAlignment="Left" Margin="0,22,0,0"  TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="296" FontSize="20" Background="#FF6D6875" BorderBrush="{x:Null}" Foreground="#FFFFCDB2"/>
+                    <TextBlock HorizontalAlignment="Left" Height="13" Margin="5,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Description"/><LineBreak/><Run/></TextBlock>
+                </Grid>
+                <!--Price-->
+                <Grid Grid.Row="3" HorizontalAlignment="Center" Height="50" VerticalAlignment="Center">
+                    <TextBox HorizontalAlignment="Center" Margin="0,21,0,0"  TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="296" BorderBrush="{x:Null}" FontSize="20" Background="#FF6D6875" Foreground="#FFFFCDB2"/>
+                    <TextBlock HorizontalAlignment="Left" Height="13" Margin="5,0,0,0" TextWrapping="Wrap" Text="Price" VerticalAlignment="Top"/>
+                </Grid>
+                <!--Submit-->
+                <Button Grid.Row="4" Content="Create New book" HorizontalAlignment="Center" Height="40" Margin="0,20,0,0"   VerticalAlignment="Center" Width="296" BorderBrush="{x:Null}" Foreground="#FFFFCDB2" Background="#FFB5838D"/>
+            </Grid>
+        </Grid>
+        
+        <!--Error show-->
+        <Grid  Grid.Row="2" Background="#FFCDB2" >
+            <TextBlock Text="Error" HorizontalAlignment="Right" Foreground="#FFFF6685" Margin="0,0,20,0" FontWeight="Bold" />
+        </Grid>
+    </Grid>
+</Page>
