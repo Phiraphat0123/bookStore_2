@@ -110,7 +110,8 @@
     <Compile Include="allPage\SalesHistory.xaml.cs">
       <DependentUpon>SalesHistory.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SQLite\BookManagement.cs" />
+    <Compile Include="Model\BookModel.cs" />
+    <Compile Include="SQLite\Books.cs" />
     <Compile Include="SQLite\DataAccess.cs" />
     <Page Include="allPage\BookManagement.xaml">
       <SubType>Designer</SubType>

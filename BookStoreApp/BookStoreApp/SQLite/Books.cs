@@ -1,4 +1,5 @@
-﻿using Microsoft.Data.Sqlite;
+﻿using BookStoreApp.Model;
+using Microsoft.Data.Sqlite;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,10 +8,11 @@ using System.Threading.Tasks;
 
 namespace BookStoreApp.SQLite
 {
-    internal class BookManagement : DataAccess
+    internal class Books : DataAccess
     {
         private string databaseFile = "Books.db";
-        public  BookManagement() {
+        public Books()
+        {
             SqliteConnection db = new SqliteConnection($"Filename={databaseFile}");
             {
                 db.Open();
@@ -25,18 +27,27 @@ namespace BookStoreApp.SQLite
                 createTable.ExecuteReader();
             }
         }
-        public override List<string> GetData() {
-            List<String> entries = new List<string>();
+
+        public override List<Object> GetData()
+        {
+            List<Object> entries = new List<Object>();
             using (SqliteConnection db =
                new SqliteConnection($"Filename={databaseFile}"))
             {
                 db.Open();
                 SqliteCommand selectCommand = new SqliteCommand
-                    ("SELECT Title from Books", db);
+                    ("SELECT * from Books", db);
                 SqliteDataReader query = selectCommand.ExecuteReader();
+                
                 while (query.Read())
                 {
-                    entries.Add(query.GetString(0));
+                    //entries.Add(query.GetString(0));
+                    //query.GetInt32(0); //Id
+                    //query.GetString(1); //Title
+                    //query.GetString(2); //Description
+                    //query.GetDouble(3); //Price
+
+                    entries.Add(new BookModel {ISBN= query.GetInt32(0), title=query.GetString(1), description=query.GetString(2), price=query.GetDouble(3) });
                 }
                 db.Close();
             }
@@ -44,18 +55,18 @@ namespace BookStoreApp.SQLite
         }
         //public  List<string> GetData(string condition)
         //{
-         //   List<String> entries = new List<string>();
-         //   using (SqliteConnection db =
-         //      new SqliteConnection($"Filename={databaseFile}"))
-         //   {
-         //       db.Open();
-         //       SqliteCommand selectCommand = new SqliteCommand
-         //           ($"SELECT ISBN, Title, Description, Price from Books ", db);
-         //       if (condition.Length != 0)
-         //       {
+        //   List<String> entries = new List<string>();
+        //   using (SqliteConnection db =
+        //      new SqliteConnection($"Filename={databaseFile}"))
+        //   {
+        //       db.Open();
+        //       SqliteCommand selectCommand = new SqliteCommand
+        //           ($"SELECT ISBN, Title, Description, Price from Books ", db);
+        //       if (condition.Length != 0)
+        //       {
         //            selectCommand.Parameters.AddWithValue("@Where","1=1");
-//
-         //       }
+        //
+        //       }
         //        SqliteDataReader query = selectCommand.ExecuteReader();
         //        while (query.Read())
         //        {
@@ -71,7 +82,8 @@ namespace BookStoreApp.SQLite
             //throw new NotImplementedException();
         }
 
-        public  Boolean AddData(string bookId, string bookName, string bookDesc, string bookPrice) {
+        public Boolean AddData(string bookId, string bookName, string bookDesc, string bookPrice)
+        {
             using (SqliteConnection db =
               new SqliteConnection($"Filename={databaseFile}"))
             {
@@ -90,12 +102,15 @@ namespace BookStoreApp.SQLite
             return false;
         }
 
-        public override Boolean DeleteData() {
+        public override Boolean DeleteData()
+        {
 
             return false;
         }
-        public override Boolean UpdateData() {
+        public override Boolean UpdateData()
+        {
             return false;
         }
+
     }
 }

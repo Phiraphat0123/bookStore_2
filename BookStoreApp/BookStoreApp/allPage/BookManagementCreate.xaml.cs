@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BookStoreApp.Model;
+using BookStoreApp.SQLite;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +22,50 @@ namespace BookStoreApp.allPage
     /// </summary>
     public partial class BookManagementCreate : Page
     {
+        Books books;
+        Boolean DatabaseStatus;
+        List<Object> bookList;
+
         public BookManagementCreate()
         {
             InitializeComponent();
+            books = new Books();
+        }
+
+        private void GoBack(object sender, RoutedEventArgs e)
+        {
+            NavigationService.GoBack();
+        }
+
+        private void GetDataTest(object sender, RoutedEventArgs e)
+        {
+            
+            try
+            {
+                bookList= books.GetData();
+
+                foreach (BookModel objData in bookList)
+                {
+                    MessageBox.Show($"id:{objData.ISBN}, title:{objData.title}");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            
+        }
+
+        private void CreateNewBook(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                books.AddData(txtISBN.Text, txtTitle.Text, txtDescription.Text, txtPrice.Text);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
         }
     }
 }

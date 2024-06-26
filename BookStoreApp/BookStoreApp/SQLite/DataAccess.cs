@@ -9,7 +9,7 @@ namespace BookStoreApp.SQLite
     abstract class DataAccess
     {
         //abstract public void InitializeDatabase();
-        abstract public List<string> GetData();
+        abstract public List<Object> GetData();
         abstract public Boolean AddData();
         abstract public Boolean UpdateData();
         abstract public Boolean DeleteData();

@@ -33,7 +33,7 @@
             </Grid.RowDefinitions>
             <!--headder-->
             <TextBlock Grid.Row="0" HorizontalAlignment="Center"  TextWrapping="Wrap" Text="Book Management" TextAlignment="Center" VerticalAlignment="Center" Width="248" FontSize="24" FontWeight="Bold"/>
-            <Button  Grid.Row="0" Content="Go back" HorizontalAlignment="Left" Margin="30,0,0,0" VerticalAlignment="Center" Background="#FFFFE1BA" BorderBrush="{x:Null}" FontSize="16" Padding="10,5,10,5" BorderThickness="0,0,0,0">
+            <Button  Grid.Row="0" Content="Go back" HorizontalAlignment="Left" Margin="30,0,0,0" VerticalAlignment="Center" Background="#FFFFE1BA" BorderBrush="{x:Null}" FontSize="16" Padding="10,5,10,5" BorderThickness="0,0,0,0" Click="GoBack" Cursor="Hand">
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="20"/>
@@ -41,7 +41,7 @@
                 </Button.Resources>
             </Button>
             <!--input list-->
-            <Grid Grid.Row="1" Margin="0,20,0,20">
+            <Grid Grid.Row="1" Margin="0,20,0,20" VerticalAlignment="Center">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
@@ -54,29 +54,32 @@
                 </Grid.RowDefinitions>
                 <!--ISBN-->
                 <Grid Grid.Row="0" HorizontalAlignment="Center" Height="47"  VerticalAlignment="Center">
-                    <TextBox HorizontalAlignment="Center" Margin="0,18,0,0"  TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="296" BorderBrush="{x:Null}" FontSize="20" Background="#FF6D6875" Foreground="#FFFFCDB2"/>
+                    <TextBox x:Name="txtISBN" HorizontalAlignment="Center" Margin="0,18,0,0"  TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="296" BorderBrush="{x:Null}" FontSize="20" Background="#FF6D6875" Foreground="#FFFFCDB2"/>
                     <TextBlock HorizontalAlignment="Left" Height="13" Margin="5,0,0,0" TextWrapping="Wrap" Text="ISBN" VerticalAlignment="Top"/>
                 </Grid>
                 <!--title-->
                 <Grid Grid.Row="1" HorizontalAlignment="Center" Height="50"  VerticalAlignment="Center">
-                    <TextBox HorizontalAlignment="Center" Margin="0,21,0,0"  TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="296" BorderBrush="{x:Null}" FontSize="20" Background="#FF6D6875" Foreground="#FFFFCDB2"/>
+                    <TextBox x:Name="txtTitle" HorizontalAlignment="Center" Margin="0,21,0,0"  TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="296" BorderBrush="{x:Null}" FontSize="20" Background="#FF6D6875" Foreground="#FFFFCDB2"/>
                     <TextBlock HorizontalAlignment="Left" Height="13" Margin="5,0,0,0" TextWrapping="Wrap" Text="Title" VerticalAlignment="Top"/>
                 </Grid>
                 <!--description-->
                 <Grid Grid.Row="2" HorizontalAlignment="Center" Height="51"  VerticalAlignment="Center">
-                    <TextBox HorizontalAlignment="Left" Margin="0,22,0,0"  TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="296" FontSize="20" Background="#FF6D6875" BorderBrush="{x:Null}" Foreground="#FFFFCDB2"/>
+                    <TextBox x:Name="txtDescription" HorizontalAlignment="Left" Margin="0,22,0,0"  TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="296" FontSize="20" Background="#FF6D6875" BorderBrush="{x:Null}" Foreground="#FFFFCDB2"/>
                     <TextBlock HorizontalAlignment="Left" Height="13" Margin="5,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Description"/><LineBreak/><Run/></TextBlock>
                 </Grid>
                 <!--Price-->
                 <Grid Grid.Row="3" HorizontalAlignment="Center" Height="50" VerticalAlignment="Center">
-                    <TextBox HorizontalAlignment="Center" Margin="0,21,0,0"  TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="296" BorderBrush="{x:Null}" FontSize="20" Background="#FF6D6875" Foreground="#FFFFCDB2"/>
+                    <TextBox x:Name="txtPrice" HorizontalAlignment="Center" Margin="0,21,0,0"  TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="296" BorderBrush="{x:Null}" FontSize="20" Background="#FF6D6875" Foreground="#FFFFCDB2"/>
                     <TextBlock HorizontalAlignment="Left" Height="13" Margin="5,0,0,0" TextWrapping="Wrap" Text="Price" VerticalAlignment="Top"/>
                 </Grid>
                 <!--Submit-->
-                <Button Grid.Row="4" Content="Create New book" HorizontalAlignment="Center" Height="40" Margin="0,20,0,0"   VerticalAlignment="Center" Width="296" BorderBrush="{x:Null}" Foreground="#FFFFCDB2" Background="#FFB5838D"/>
+                <Grid Grid.Row="4" HorizontalAlignment="Center" Height="50" VerticalAlignment="Center">
+                    <Button Content="Create New book" HorizontalAlignment="Center" Height="40"    VerticalAlignment="Center" Width="296" BorderBrush="{x:Null}" Foreground="#FFFFCDB2" Background="#FFB5838D" Click="CreateNewBook"/>
+                    <Button  Content="Button" HorizontalAlignment="Left" Height="29" VerticalAlignment="Top" Width="61" Click="GetDataTest" Margin="394,16,0,0"/>
+                </Grid>
             </Grid>
         </Grid>
-        
+
         <!--Error show-->
         <Grid  Grid.Row="2" Background="#FFCDB2" >
             <TextBlock Text="Error" HorizontalAlignment="Right" Foreground="#FFFF6685" Margin="0,0,20,0" FontWeight="Bold" />
