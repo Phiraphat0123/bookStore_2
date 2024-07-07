@@ -3,8 +3,10 @@ using Microsoft.Data.Sqlite;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace BookStoreApp.SQLite
 {
@@ -53,29 +55,28 @@ namespace BookStoreApp.SQLite
             }
             return entries;
         }
-        //public  List<string> GetData(string condition)
-        //{
-        //   List<String> entries = new List<string>();
-        //   using (SqliteConnection db =
-        //      new SqliteConnection($"Filename={databaseFile}"))
-        //   {
-        //       db.Open();
-        //       SqliteCommand selectCommand = new SqliteCommand
-        //           ($"SELECT ISBN, Title, Description, Price from Books ", db);
-        //       if (condition.Length != 0)
-        //       {
-        //            selectCommand.Parameters.AddWithValue("@Where","1=1");
-        //
-        //       }
-        //        SqliteDataReader query = selectCommand.ExecuteReader();
-        //        while (query.Read())
-        //        {
-        //            entries.Add(query.GetString(0));
-        //        }
-        //        db.Close();
-        //    }
-        //    return entries;
-        //}
+        public  List<Object>  GetData(int id)
+        {
+           List<Object> entries = new List<Object>();
+           using (SqliteConnection db =
+              new SqliteConnection($"Filename={databaseFile}"))
+           {
+               db.Open();
+                SqliteCommand selectCommand = new SqliteCommand();
+                selectCommand.Connection = db;
+                selectCommand.CommandText = $"SELECT * from Books Where ISBN=@Condition;";
+                selectCommand.Parameters.AddWithValue("@Condition", id);
+
+                SqliteDataReader query = selectCommand.ExecuteReader();
+                while (query.Read())
+                {
+                    //entries.Add(query.GetString(0));
+                    entries.Add(new BookModel { ISBN = query.GetInt32(0), title = query.GetString(1), description = query.GetString(2), price = query.GetDouble(3) });
+                }
+                db.Close();
+            }
+            return entries;
+        }
         public override Boolean AddData()
         {
             throw new Exception("Please in put data");
@@ -104,11 +105,12 @@ namespace BookStoreApp.SQLite
 
         public override Boolean DeleteData()
         {
-
+            MessageBox.Show("this is delete book");
             return false;
         }
-        public override Boolean UpdateData()
+        public  override  Boolean UpdateData()
         {
+            MessageBox.Show("this is update book");
             return false;
         }
 

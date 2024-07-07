@@ -23,11 +23,36 @@ namespace BookStoreApp.allPage
         public BookManagement()
         {
             InitializeComponent();
+            createBookBTN.OnAction += MoveToCreate;// use element's name for binding method to usercontrol
+            updateBTN.OnAction += MoveToUpdate;
+            bookListBTN.OnAction += MoveToList;
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void GoBack(object sender, RoutedEventArgs e)
         {
             NavigationService.GoBack();
+        }
+
+        private void NavigationBTN_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void MoveToCreate()
+        {
+            BookManagementCreate bookMC = new BookManagementCreate();
+            NavigationService.Navigate(bookMC);
+        }
+
+        private void MoveToUpdate()
+        {
+            BookManagementEdit bookME = new BookManagementEdit();
+            NavigationService.Navigate(bookME);
+        }
+        private void MoveToList()
+        {
+            BookManagementList bookML = new BookManagementList();
+            NavigationService.Navigate(bookML);
         }
     }
 }

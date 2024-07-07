@@ -47,3 +47,6 @@ D:\study\learning\C#\BookStore_Project_1\bookStore_2\BookStoreApp\BookStoreApp\o
 D:\study\learning\C#\BookStore_Project_1\bookStore_2\BookStoreApp\BookStoreApp\obj\Debug\allPage\BookManagementCreate.baml
 D:\study\learning\C#\BookStore_Project_1\bookStore_2\BookStoreApp\BookStoreApp\obj\Debug\allPage\BookManagementEdit.baml
 D:\study\learning\C#\BookStore_Project_1\bookStore_2\BookStoreApp\BookStoreApp\obj\Debug\allPage\BookManagementList.baml
+D:\study\learning\C#\BookStore_Project_1\bookStore_2\BookStoreApp\BookStoreApp\obj\Debug\Controller\NavigationBTN.g.cs
+D:\study\learning\C#\BookStore_Project_1\bookStore_2\BookStoreApp\BookStoreApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\study\learning\C#\BookStore_Project_1\bookStore_2\BookStoreApp\BookStoreApp\obj\Debug\Controller\NavigationBTN.baml

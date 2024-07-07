@@ -27,7 +27,7 @@ namespace BookStoreApp.allPage
 
         private void ToBookM(object sender, RoutedEventArgs e)
         {
-            BookManagementCreate bookM = new BookManagementCreate();
+            BookManagement bookM = new BookManagement();
             NavigationService.Navigate(bookM);
         }
 

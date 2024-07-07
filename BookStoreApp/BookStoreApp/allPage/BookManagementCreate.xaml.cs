@@ -42,7 +42,7 @@ namespace BookStoreApp.allPage
             
             try
             {
-                bookList= books.GetData();
+                bookList = books.GetData();
 
                 foreach (BookModel objData in bookList)
                 {

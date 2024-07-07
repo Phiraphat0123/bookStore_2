@@ -110,6 +110,9 @@
     <Compile Include="allPage\SalesHistory.xaml.cs">
       <DependentUpon>SalesHistory.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Controller\NavigationBTN.xaml.cs">
+      <DependentUpon>NavigationBTN.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Model\BookModel.cs" />
     <Compile Include="SQLite\Books.cs" />
     <Compile Include="SQLite\DataAccess.cs" />
@@ -150,6 +153,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="allPage\SalesHistory.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controller\NavigationBTN.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
