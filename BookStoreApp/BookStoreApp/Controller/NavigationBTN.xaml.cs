@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BookStoreApp.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -32,7 +33,7 @@ namespace BookStoreApp.Controller
             set 
             { 
                 srcImg = value;
-                ImageSource imageSource = LoadImage(srcImg);
+                ImageSource imageSource = ImageLoading.GetImage(srcImg);
                 iconBTN.Source = imageSource;
 
             }
@@ -65,15 +66,15 @@ namespace BookStoreApp.Controller
             OnAction?.Invoke();
         }
 
-
-        private BitmapImage LoadImage(string uri) //this is how to call image with source
-        {
-            BitmapImage bitmap = new BitmapImage();
-            bitmap.BeginInit();
-            bitmap.UriSource = new Uri(uri, UriKind.RelativeOrAbsolute);
-            bitmap.EndInit();
-            return bitmap;
-        }
+        //ย้ายไปอยู่ที่ Model
+        //private BitmapImage LoadImage(string uri) //this is how to call image with source
+        //{
+        //    BitmapImage bitmap = new BitmapImage();
+        //    bitmap.BeginInit();
+        //    bitmap.UriSource = new Uri(uri, UriKind.RelativeOrAbsolute);
+        //    bitmap.EndInit();
+        //    return bitmap;
+        //}
 
     }
 }

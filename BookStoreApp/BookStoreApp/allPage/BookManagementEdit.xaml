@@ -12,21 +12,21 @@
         <TextBlock HorizontalAlignment="Left" Margin="30,20,0,0" TextWrapping="Wrap" Text="Flack Shop" VerticalAlignment="Top" FontSize="24" FontFamily="Mistral" />
 
         <TextBlock HorizontalAlignment="Center" Margin="0,68,0,0" TextWrapping="Wrap" Text="Book Management" TextAlignment="Center" VerticalAlignment="Top" Width="248" FontSize="24" FontWeight="Bold"/>
-        <Button Content="Go back" HorizontalAlignment="Left" Margin="29,67,0,0" VerticalAlignment="Top" Background="#FFFFE1BA" BorderBrush="{x:Null}" FontSize="16" Padding="5,5,5,5"/>
+        <Button Content="Go back" HorizontalAlignment="Left" Margin="29,67,0,0" VerticalAlignment="Top" Background="#FFFFE1BA" BorderBrush="{x:Null}" FontSize="16" Padding="5,5,5,5" Click="GoBack"/>
         <Grid HorizontalAlignment="Center" Height="47" Margin="0,118,0,0" VerticalAlignment="Top">
-            <TextBox HorizontalAlignment="Center" Margin="0,18,0,0"  TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="296" BorderBrush="{x:Null}" FontSize="20" Background="#FF6D6875" Foreground="#FFFFCDB2"/>
+            <TextBox x:Name="txtISBN" HorizontalAlignment="Center" Margin="0,18,0,0"  TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="296" BorderBrush="{x:Null}" FontSize="20" Background="#FF6D6875" Foreground="#FFFFCDB2"/>
             <TextBlock HorizontalAlignment="Left" Height="13" Margin="5,0,0,0" TextWrapping="Wrap" Text="ISBN" VerticalAlignment="Top"/>
         </Grid>
         <Grid HorizontalAlignment="Center" Height="50" Margin="0,170,0,0" VerticalAlignment="Top">
-            <TextBox HorizontalAlignment="Center" Margin="0,21,0,0"  TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="296" BorderBrush="{x:Null}" FontSize="20" Background="#FF6D6875" Foreground="#FFFFCDB2"/>
+            <TextBox x:Name="txtTitle" HorizontalAlignment="Center" Margin="0,21,0,0"  TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="296" BorderBrush="{x:Null}" FontSize="20" Background="#FF6D6875" Foreground="#FFFFCDB2"/>
             <TextBlock HorizontalAlignment="Left" Height="13" Margin="5,0,0,0" TextWrapping="Wrap" Text="Title" VerticalAlignment="Top"/>
         </Grid>
         <Grid HorizontalAlignment="Center" Height="51" Margin="0,218,0,0" VerticalAlignment="Top">
-            <TextBox HorizontalAlignment="Left" Margin="0,22,0,0"  TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="296" FontSize="20" Background="#FF6D6875" BorderBrush="{x:Null}" Foreground="#FFFFCDB2"/>
+            <TextBox x:Name="txtDescription" HorizontalAlignment="Left" Margin="0,22,0,0"  TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="296" FontSize="20" Background="#FF6D6875" BorderBrush="{x:Null}" Foreground="#FFFFCDB2"/>
             <TextBlock HorizontalAlignment="Left" Height="13" Margin="5,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Description"/><LineBreak/><Run/></TextBlock>
         </Grid>
         <Grid HorizontalAlignment="Center" Height="50" Margin="0,268,0,0" VerticalAlignment="Top">
-            <TextBox HorizontalAlignment="Center" Margin="0,21,0,0"  TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="296" BorderBrush="{x:Null}" FontSize="20" Background="#FF6D6875" Foreground="#FFFFCDB2"/>
+            <TextBox x:Name="txtPrice" HorizontalAlignment="Center" Margin="0,21,0,0"  TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="296" BorderBrush="{x:Null}" FontSize="20" Background="#FF6D6875" Foreground="#FFFFCDB2"/>
             <TextBlock HorizontalAlignment="Left" Height="13" Margin="5,0,0,0" TextWrapping="Wrap" Text="Price" VerticalAlignment="Top"/>
         </Grid>
         <Button Content="Edit book" HorizontalAlignment="Center" Height="40" Margin="0,356,0,0" VerticalAlignment="Top" Width="296" BorderBrush="{x:Null}" Foreground="#FFFFCDB2" Background="#FFB5838D"/>

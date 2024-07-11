@@ -102,11 +102,27 @@ namespace BookStoreApp.SQLite
             }
             return false;
         }
-
-        public override Boolean DeleteData()
-        {
-            MessageBox.Show("this is delete book");
+        public override Boolean DeleteData() {
+            MessageBox.Show("Delete must has a book id");
             return false;
+        }
+        public  Boolean DeleteData(int bookId)
+        {
+            using (SqliteConnection db =
+             new SqliteConnection($"Filename={databaseFile}"))
+            {
+                db.Open();
+                SqliteCommand insertCommand = new SqliteCommand();
+                insertCommand.Connection = db;
+                // Use parameterized query to prevent SQL injection attacks
+                insertCommand.CommandText = "Delete From Books WHERE ISBN=@ISBN";
+                insertCommand.Parameters.AddWithValue("@ISBN", bookId); //ใช้เพื่อตรวจสอบค่าเพื่อให้เป็นแค่ข้อมูลเท่านั้น ไม่ใช่ SQL command
+                insertCommand.ExecuteReader();
+                db.Close();
+            }
+            return false;
+            //MessageBox.Show("this is delete book");
+            //return false;
         }
         public  override  Boolean UpdateData()
         {

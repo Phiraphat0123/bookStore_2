@@ -114,6 +114,7 @@
       <DependentUpon>NavigationBTN.xaml</DependentUpon>
     </Compile>
     <Compile Include="Model\BookModel.cs" />
+    <Compile Include="Model\ImageLoading.cs" />
     <Compile Include="SQLite\Books.cs" />
     <Compile Include="SQLite\DataAccess.cs" />
     <Page Include="allPage\BookManagement.xaml">

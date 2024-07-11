@@ -65,9 +65,9 @@
 
                 </Grid>
                 <!-- data list-->
-                <Viewbox x:Name="dataListContainer" Grid.Row="1"  MinHeight="250"  MaxHeight="1200" Height="Auto"  HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="20">
+                <Viewbox x:Name="dataListContainer" Grid.Row="1"  MinHeight="250"  MaxWidth="1000" Height="Auto"  HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="20">
                     <ScrollViewer HorizontalAlignment="Stretch" VerticalAlignment="Stretch" VerticalScrollBarVisibility="Auto"  Background="White">
-                        <StackPanel  x:Name="dataContainer" Height="Auto"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10"  >
+                        <StackPanel  x:Name="dataContainer" Height="Auto" Width="Auto"  HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10"  >
 
                             <!--this's for dynamic data list-->
                         </StackPanel>
