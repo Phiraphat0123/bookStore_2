@@ -86,6 +86,9 @@
     <Compile Include="allPage\BookManagementCreate.xaml.cs">
       <DependentUpon>BookManagementCreate.xaml</DependentUpon>
     </Compile>
+    <Compile Include="allPage\BookManagementDetail.xaml.cs">
+      <DependentUpon>BookManagementDetail.xaml</DependentUpon>
+    </Compile>
     <Compile Include="allPage\BookManagementEdit.xaml.cs">
       <DependentUpon>BookManagementEdit.xaml</DependentUpon>
     </Compile>
@@ -122,6 +125,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="allPage\BookManagementCreate.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="allPage\BookManagementDetail.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

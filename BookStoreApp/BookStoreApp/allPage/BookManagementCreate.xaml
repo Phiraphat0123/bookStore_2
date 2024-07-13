@@ -41,7 +41,7 @@
                 </Button.Resources>
             </Button>
             <!--input list-->
-            <Grid Grid.Row="1" Margin="0,20,0,20" VerticalAlignment="Center">
+            <Grid Grid.Row="1" Margin="0,20,0,20" VerticalAlignment="Top">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
@@ -59,12 +59,12 @@
                 </Grid>
                 <!--title-->
                 <Grid Grid.Row="1" HorizontalAlignment="Center" Height="50"  VerticalAlignment="Center">
-                    <TextBox x:Name="txtTitle" HorizontalAlignment="Center" Margin="0,21,0,0"  TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="296" BorderBrush="{x:Null}" FontSize="20" Background="#FF6D6875" Foreground="#FFFFCDB2"/>
+                    <TextBox x:Name="txtTitle" HorizontalAlignment="Center" Margin="0,21,0,0" MaxLength="50" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="296" BorderBrush="{x:Null}" FontSize="20" Background="#FF6D6875" Foreground="#FFFFCDB2"/>
                     <TextBlock HorizontalAlignment="Left" Height="13" Margin="5,0,0,0" TextWrapping="Wrap" Text="Title" VerticalAlignment="Top"/>
                 </Grid>
                 <!--description-->
-                <Grid Grid.Row="2" HorizontalAlignment="Center" Height="51"  VerticalAlignment="Center">
-                    <TextBox x:Name="txtDescription" HorizontalAlignment="Left" Margin="0,22,0,0"  TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="296" FontSize="20" Background="#FF6D6875" BorderBrush="{x:Null}" Foreground="#FFFFCDB2"/>
+                <Grid Grid.Row="2" HorizontalAlignment="Center" MinHeight="51" Height="Auto" VerticalAlignment="Center">
+                    <TextBox x:Name="txtDescription" HorizontalAlignment="Left" Margin="0,22,0,0" MaxHeight="100" Height="auto" MaxLength="150"  TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="296" FontSize="20" Background="#FF6D6875" BorderBrush="{x:Null}" Foreground="#FFFFCDB2"/>
                     <TextBlock HorizontalAlignment="Left" Height="13" Margin="5,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Description"/><LineBreak/><Run/></TextBlock>
                 </Grid>
                 <!--Price-->
@@ -75,7 +75,8 @@
                 <!--Submit-->
                 <Grid Grid.Row="4" HorizontalAlignment="Center" Height="50" VerticalAlignment="Center">
                     <Button Content="Create New book" HorizontalAlignment="Center" Height="40"    VerticalAlignment="Center" Width="296" BorderBrush="{x:Null}" Foreground="#FFFFCDB2" Background="#FFB5838D" Click="CreateNewBook"/>
-                    <Button  Content="Button" HorizontalAlignment="Left" Height="29" VerticalAlignment="Top" Width="61" Click="GetDataTest" Margin="394,16,0,0"/>
+                    <!--<Button  Content="Button" HorizontalAlignment="Left" Height="29" VerticalAlignment="Top" Width="61" Click="GetDataTest" Margin="394,16,0,0"/>
+                    -->
                 </Grid>
             </Grid>
         </Grid>

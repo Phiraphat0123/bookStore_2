@@ -24,7 +24,7 @@ namespace BookStoreApp.allPage
         {
             InitializeComponent();
             createBookBTN.OnAction += MoveToCreate;// use element's name for binding method to usercontrol
-            updateBTN.OnAction += MoveToUpdate;
+            //updateBTN.OnAction += MoveToUpdate;
             bookListBTN.OnAction += MoveToList;
         }
 

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BookStoreApp.Model;
+using BookStoreApp.SQLite;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,7 +26,9 @@ namespace BookStoreApp.allPage
         private string title;
         private string description;
         private string price;
-
+        private List<Object> bookList;
+        private Books books;
+        
 
         public BookManagementEdit()
         {
@@ -33,8 +37,27 @@ namespace BookStoreApp.allPage
         public BookManagementEdit(string id)
         {
             InitializeComponent();
-            ISBN = id.Substring(5);
-            txtISBN.Text = ISBN;
+            try
+            {
+                books = new Books();
+                ISBN = id.Substring(5);
+                bookList = books.GetData(int.Parse(ISBN));
+
+                //assign
+                BookModel bookDetail = bookList[0] as BookModel;
+                txtISBN.Text = ISBN;
+                txtISBN.IsEnabled = false;
+                txtTitle.Text = bookDetail.title.ToString();
+                txtDescription.Text = bookDetail.description.ToString();
+                txtPrice.Text = bookDetail.price.ToString();
+                MessageBox.Show($"{bookDetail.ISBN.ToString()}, {bookDetail.title.ToString()}");
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            
         }
         public BookManagementEdit(string id, string title, string description, string price)
         {
@@ -66,7 +89,29 @@ namespace BookStoreApp.allPage
 
         private void GoBack(object sender, RoutedEventArgs e)
         {
-            NavigationService.GoBack();
+            BookManagementList bookManagementList = new BookManagementList();
+            NavigationService.Navigate(bookManagementList);
+        }
+
+        private void EditBook(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                BookManagementList bookManagementList = new BookManagementList();
+                Boolean status = books.UpdateData(int.Parse(txtISBN.Text),txtTitle.Text,txtDescription.Text,int.Parse(txtPrice.Text));
+                if (status)
+                {
+                    NavigationService.Navigate(bookManagementList);
+                }
+                else {
+                    // show error for user
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
         }
     }
 }

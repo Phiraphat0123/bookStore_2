@@ -53,8 +53,8 @@
                 </Grid.RowDefinitions>
 
                 <userControls:NavigationBTN x:Name="createBookBTN" Grid.Row="0" SrcImg="../icon/book.png" TxtContent="Create new book" />
-                <userControls:NavigationBTN x:Name="updateBTN" Grid.Row="1" SrcImg="../icon/book.png" TxtContent="Update book"/>
-                <userControls:NavigationBTN x:Name="bookListBTN" Grid.Row="2" SrcImg="../icon/book.png" TxtContent="All books"  />
+               <!-- <userControls:NavigationBTN x:Name="updateBTN" Grid.Row="1" SrcImg="../icon/book.png" TxtContent="Update book"/>-->
+                <userControls:NavigationBTN x:Name="bookListBTN" Grid.Row="1" SrcImg="../icon/book.png" TxtContent="All books"  />
                 
             </Grid>
         </Grid>

@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\study\learning\C#\BookStore_Project_1\bookStore_2\BookStoreApp\BookStoreApp\App.xaml
-12-185563928
+13-838388657
 
-20-1649268725
+21-1747003644
 126-1324403647
-allPage\BookManagement.xaml;allPage\BookManagementCreate.xaml;allPage\BookManagementEdit.xaml;allPage\BookManagementList.xaml;allPage\CustomerManagement.xaml;allPage\LogIn.xaml;allPage\MainMenu.xaml;allPage\Register.xaml;allPage\Sales.xaml;allPage\SalesHistory.xaml;Controller\NavigationBTN.xaml;MainWindow.xaml;
+allPage\BookManagement.xaml;allPage\BookManagementCreate.xaml;allPage\BookManagementDetail.xaml;allPage\BookManagementEdit.xaml;allPage\BookManagementList.xaml;allPage\CustomerManagement.xaml;allPage\LogIn.xaml;allPage\MainMenu.xaml;allPage\Register.xaml;allPage\Sales.xaml;allPage\SalesHistory.xaml;Controller\NavigationBTN.xaml;MainWindow.xaml;
 
 False
 

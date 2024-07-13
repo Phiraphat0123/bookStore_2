@@ -46,12 +46,12 @@ namespace BookStoreApp.allPage
                 foreach (BookModel objData in bookList)
                 {
                     //button for detail pop up
-                    Button detailBTN = new Button { Name = $"book_{objData.ISBN}" };
+                    //Button detailBTN = new Button { Name = $"book_{objData.ISBN}" };
                     //detailBTN.Content = ""; //not just a text perhap element too
-                    detailBTN.HorizontalAlignment = HorizontalAlignment.Stretch;
-                    detailBTN.VerticalAlignment = VerticalAlignment.Top;
-                    detailBTN.Width = Double.NaN;
-                    detailBTN.Height = Double.NaN;
+                    //detailBTN.HorizontalAlignment = HorizontalAlignment.Stretch;
+                    //detailBTN.VerticalAlignment = VerticalAlignment.Top;
+                    //detailBTN.Width = Double.NaN;
+                    //detailBTN.Height = Double.NaN;
                     //detailBTN.Click += DeleteBook;
                     //detailBTN.Click += TestingBTN;
                     // detailBTN.Name = $"{objData.ISBN}";
@@ -59,7 +59,7 @@ namespace BookStoreApp.allPage
                     // grid for data item
                     Grid dataItem = new Grid(); // data item
                     dataItem.HorizontalAlignment = HorizontalAlignment.Stretch;
-                    dataItem.VerticalAlignment = VerticalAlignment.Top;
+                    dataItem.VerticalAlignment = VerticalAlignment.Center;
                     dataItem.MinWidth = 500;
                     dataItem.Width = Double.NaN;
                     dataItem.Height = Double.NaN; //use this to make height auto
@@ -69,7 +69,7 @@ namespace BookStoreApp.allPage
                     TextBlock txtId = new TextBlock();
                     txtId.Text = objData.ISBN.ToString();
                     txtId.HorizontalAlignment = HorizontalAlignment.Stretch;
-                    txtId.VerticalAlignment = VerticalAlignment.Top;
+                    txtId.VerticalAlignment = VerticalAlignment.Center;
                     txtId.Width = Double.NaN;
                     txtId.Height = Double.NaN;
                     txtId.TextAlignment = TextAlignment.Center;
@@ -79,7 +79,7 @@ namespace BookStoreApp.allPage
                     TextBlock txtTitle = new TextBlock();
                     txtTitle.Text = objData.title.ToString();
                     txtTitle.HorizontalAlignment = HorizontalAlignment.Stretch;
-                    txtTitle.VerticalAlignment = VerticalAlignment.Top;
+                    txtTitle.VerticalAlignment = VerticalAlignment.Center;
                     txtTitle.Height = Double.NaN;
                     txtTitle.Width = Double.NaN;
                     txtTitle.TextAlignment = TextAlignment.Left;
@@ -98,47 +98,66 @@ namespace BookStoreApp.allPage
                     TextBlock txtPrice = new TextBlock();
                     txtPrice.Text = objData.price.ToString();
                     txtPrice.HorizontalAlignment = HorizontalAlignment.Stretch;
-                    txtPrice.VerticalAlignment = VerticalAlignment.Top;
+                    txtPrice.VerticalAlignment = VerticalAlignment.Center;
                     txtPrice.Height = Double.NaN;
                     txtPrice.Width = Double.NaN;
                     txtPrice.Padding = new Thickness(2);
                     //txtPrice.Width = 20;
 
-                    //container have: delete-btn and edit-btn
+                    //container have: detail-btn, delete-btn and edit-btn
                     //grid for container
                     Grid containerBTN = new Grid();
                     containerBTN.HorizontalAlignment = HorizontalAlignment.Stretch;
-                    containerBTN.VerticalAlignment = VerticalAlignment.Top;
+                    containerBTN.VerticalAlignment = VerticalAlignment.Center;
                     containerBTN.MinWidth = 100;
                     containerBTN.Width = Double.NaN;
                     containerBTN.Height = Double.NaN;
+                    ColumnDefinition colDetail = new ColumnDefinition { Width = GridLength.Auto };
                     ColumnDefinition colEdit = new ColumnDefinition { Width=GridLength.Auto};
                     ColumnDefinition colDelete = new ColumnDefinition{ Width=GridLength.Auto };
                     RowDefinition rowContainerBTN =new RowDefinition { Height= GridLength.Auto };
+                    containerBTN.ColumnDefinitions.Add(colDetail);
                     containerBTN.ColumnDefinitions.Add(colEdit);
                     containerBTN.ColumnDefinitions.Add(colDelete);
                     containerBTN.RowDefinitions.Add(rowContainerBTN);
                     // image for show in button
-                    Image editImg = new Image{ Source= ImageLoading.GetImage("../icon/book.png"), Width = 10, Height = 10 };
-                    Image deleteImg = new Image{ Source = ImageLoading.GetImage("../icon/book.png"), Width = 10, Height = 10 };
-                    
+                    Image detailImg = new Image { Source = ImageLoading.GetImage("../icon/book.png"), Width = 15, Height = 15 };
+                    Image editImg = new Image{ Source= ImageLoading.GetImage("../icon/book.png"), Width = 15, Height = 15 };
+                    Image deleteImg = new Image{ Source = ImageLoading.GetImage("../icon/book.png"), Width = 15, Height = 15 };
+
                     // button for click edit and delete data
+                    //detail
+                    Button detailBTN = new Button(); //edit button
+                    detailBTN.Name = $"book_{objData.ISBN}"; //เพิ่ม String เพื่อให้ไไม่เกิดบัค
+                    detailBTN.Click += ShowDetail; //เพิ่ม Method เข้าไป
+                    detailBTN.Content = detailImg;
+                    detailBTN.HorizontalAlignment = HorizontalAlignment.Center;
+                    detailBTN.VerticalAlignment = VerticalAlignment.Center;
+                   
                     //edit
                     Button editBTN = new Button(); //edit button
                     editBTN.Name = $"book_{objData.ISBN}"; //เพิ่ม String เพื่อให้ไไม่เกิดบัค
-                    editBTN.Click += EditBTN; //เพิ่ม Method เข้าไป
+                    editBTN.Click += EditBook; //เพิ่ม Method เข้าไป
                     editBTN.Content = editImg;
-                      //delete
+                    editBTN.HorizontalAlignment = HorizontalAlignment.Center;
+                    editBTN.VerticalAlignment = VerticalAlignment.Center;
+                    editBTN.Margin = new Thickness(5,0,5,0);
+                    //delete
                     Button deleteBTN = new Button();//delete button
                     deleteBTN.Name = $"book_{objData.ISBN}"; //เพิ่ม String เพื่อให้ไไม่เกิดบัค
                     deleteBTN.Click +=DeleteBook; //เพิ่ม Method เข้าไป
                     deleteBTN.Content = deleteImg;
+                    deleteBTN.HorizontalAlignment = HorizontalAlignment.Center;
+                    deleteBTN.VerticalAlignment = VerticalAlignment.Center;
                     //set column and row for button
-                    Grid.SetColumn(editBTN, 0);//set column 0
-                    Grid.SetColumn(deleteBTN, 1);//set column 1
+                    Grid.SetColumn(detailBTN, 0);//set column 0
+                    Grid.SetColumn(editBTN, 1);//set column 1
+                    Grid.SetColumn(deleteBTN, 2);//set column 2
+                    Grid.SetRow(detailBTN, 0);
                     Grid.SetRow(editBTN, 0);
                     Grid.SetRow(deleteBTN, 0);
                     //connect button to grid container
+                    containerBTN.Children.Add(detailBTN);
                     containerBTN.Children.Add(editBTN);
                     containerBTN.Children.Add(deleteBTN);
 
@@ -245,7 +264,7 @@ namespace BookStoreApp.allPage
             //dataListContainer.Visibility = Visibility.Hidden;
         }
 
-        private void EditBTN(object sender, RoutedEventArgs e)
+        private void EditBook(object sender, RoutedEventArgs e)
         {
             Button clickedButton = sender as Button; 
             string buttonName;
@@ -256,6 +275,18 @@ namespace BookStoreApp.allPage
             //BookManagementEdit bookManagementEdit = new BookManagementEdit("9999","this title", "this's a book", "120");
             NavigationService.Navigate(bookManagementEdit);
         }
+
+        private void ShowDetail(object sender, RoutedEventArgs e)
+        {
+            Button clickedButton = sender as Button;
+            string buttonName;
+            buttonName = clickedButton.Name; //get name of button
+
+            //Navigation to edit page
+            BookManagementDetail bookManagementDetail = new BookManagementDetail(buttonName.ToString());
+            NavigationService.Navigate(bookManagementDetail);
+        }
+
         private void DeleteBook(object sender, RoutedEventArgs e)
         {
             // Cast the sender to a Button
