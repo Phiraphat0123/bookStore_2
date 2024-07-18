@@ -66,11 +66,30 @@
                 </Grid>
                 <!-- data list-->
                 <Viewbox x:Name="dataListContainer" Grid.Row="1"  MinHeight="250"  MaxWidth="1000" Height="Auto"  HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="20">
-                    <ScrollViewer HorizontalAlignment="Stretch" VerticalAlignment="Stretch" VerticalScrollBarVisibility="Auto"  Background="White">
-                        <StackPanel  x:Name="dataContainer" Height="Auto" Width="Auto"  HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10"  >
+                    <ScrollViewer HorizontalAlignment="Stretch" VerticalAlignment="Stretch" VerticalScrollBarVisibility="Auto"  Background="#B5838D">
+                        <Grid x:Name="listHeader" Margin="10" Width="Auto" Height="Auto" Background="#FFCDB2" HorizontalAlignment="Stretch" VerticalAlignment="Top">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100"/>
+                                <ColumnDefinition Width="300"/>
+                                <ColumnDefinition Width="100"/>
+                                <ColumnDefinition Width="100"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
 
-                            <!--this's for dynamic data list-->
-                        </StackPanel>
+                            <!--header-->
+                            <TextBlock Grid.Row="0" Grid.Column="0" Margin="2" Width="Auto" Height="Auto" Foreground="#6D6875" Text="Book id"/>
+                            <TextBlock Grid.Row="0" Grid.Column="1" Margin="2" Width="Auto" Height="Auto" Foreground="#6D6875" Text="Title"/>
+                            <TextBlock Grid.Row="0" Grid.Column="2" Margin="2" Width="Auto" Height="Auto" Foreground="#6D6875" Text="Price"/>
+                            <TextBlock Grid.Row="0" Grid.Column="3" Margin="2" Width="Auto" Height="Auto" Foreground="#6D6875" Text="Operator"/>
+                        
+                            <StackPanel Grid.Row="1" Grid.ColumnSpan="4" Background="White" x:Name="dataContainer" Height="Auto" Width="Auto"  HorizontalAlignment="Center" VerticalAlignment="Top"  >
+                            
+                                <!--this's for dynamic data list-->
+                            </StackPanel>
+                        </Grid>
                     </ScrollViewer>
                 </Viewbox>
             </Grid>

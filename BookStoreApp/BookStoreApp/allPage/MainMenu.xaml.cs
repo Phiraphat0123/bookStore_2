@@ -45,7 +45,7 @@ namespace BookStoreApp.allPage
 
         private void ToSales(object sender, RoutedEventArgs e)
         {
-            Sales sales = new Sales();
+            SalesManagement sales = new SalesManagement();
             NavigationService.Navigate(sales);
         }
     }

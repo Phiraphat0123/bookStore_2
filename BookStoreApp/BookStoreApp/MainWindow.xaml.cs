@@ -22,12 +22,10 @@ namespace BookStoreApp
     /// </summary>
     public partial class MainWindow : Window
     {
-        //BookManagement bookManagement = new BookManagement();
         public MainWindow()
         {
             InitializeComponent();
-            //bookManagement = new BookManagement();
-            MainFrame.Source = new Uri("./allPage/MainMenu.xaml",UriKind.Relative); //ใชเเพื่อประกาศ Main frame
+            MainFrame.Source = new Uri("./allPage/LogIn.xaml",UriKind.Relative); //ใชเเพื่อประกาศ Main frame
         }
 
         //private void TESTING(object sender, RoutedEventArgs e)

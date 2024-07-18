@@ -8,7 +8,43 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="LogIn">
 
-    <Grid>
-        
+    <Grid Background="#FFFFB4A2" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+           <!--header-->
+        <TextBlock HorizontalAlignment="Center" Grid.Row="0" Grid.Column="0" TextWrapping="Wrap" Text="Flack Shop" VerticalAlignment="Center" FontSize="50" FontFamily="Mistral" Foreground="#6D6875" />
+
+        <!--content-->
+        <Grid Grid.Row="1" Margin="15">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            
+            <!--email-->
+            <Grid Grid.Row="0" HorizontalAlignment="Center" Height="50" VerticalAlignment="Center">
+                <TextBox x:Name="txtEmail" HorizontalAlignment="Center" Margin="0,21,0,0"  TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="296" BorderBrush="{x:Null}" FontSize="20" Background="#FF6D6875" Foreground="#FFFFCDB2"/>
+                <TextBlock HorizontalAlignment="Left" Height="13" Margin="5,0,0,0" TextWrapping="Wrap" Text="Email" VerticalAlignment="Top"/>
+            </Grid>
+            <!--password-->
+            <Grid Grid.Row="1" HorizontalAlignment="Center" Height="50" VerticalAlignment="Center">
+                <TextBox x:Name="txtPassword" HorizontalAlignment="Center" Margin="0,21,0,0"  TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="296" BorderBrush="{x:Null}" FontSize="20" Background="#FF6D6875" Foreground="#FFFFCDB2"/>
+                <TextBlock HorizontalAlignment="Left" Height="13" Margin="5,0,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top"/>
+            </Grid>
+            <!--button-->
+            <Grid Grid.Row="2" HorizontalAlignment="Center" Height="90" VerticalAlignment="Center">
+                <Button Content="LogIn" HorizontalAlignment="Center" Height="40"    VerticalAlignment="Center" Width="296" BorderBrush="{x:Null}" Foreground="#FFFFCDB2" Background="#FFB5838D" Click="clickLogin"/>
+               
+            </Grid>
+        </Grid>
     </Grid>
 </Page>

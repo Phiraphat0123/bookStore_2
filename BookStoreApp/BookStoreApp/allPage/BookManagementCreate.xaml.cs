@@ -17,13 +17,9 @@ using System.Windows.Shapes;
 
 namespace BookStoreApp.allPage
 {
-    /// <summary>
-    /// Interaction logic for BookManagementCreate.xaml
-    /// </summary>
     public partial class BookManagementCreate : Page
     {
         Books books;
-        Boolean DatabaseStatus;
         List<Object> bookList;
 
         public BookManagementCreate()
@@ -37,34 +33,61 @@ namespace BookStoreApp.allPage
             NavigationService.GoBack();
         }
 
-        private void GetDataTest(object sender, RoutedEventArgs e)
+        private void CreateNewBook(object sender, RoutedEventArgs e)
         {
-            
+            txtShowError.Text ="";
             try
             {
-                bookList = books.GetData();
-
-                foreach (BookModel objData in bookList)
+                int numberOutPut;
+                Boolean checkStatus=true;
+                //validation
+                // check all data null?
+                if (txtISBN.Text.Length==0 || txtTitle.Text.Length==0 || 
+                    txtDescription.Text.Length==0 || txtPrice.Text.Length==0)
                 {
-                    MessageBox.Show($"id:{objData.ISBN}, title:{objData.title}");
+                    checkStatus =false;
+                    txtShowError.Text = "/ Please input book information";
+                }
+                else
+                {
+                    // check is number?
+                    if (!int.TryParse(txtISBN.Text, out numberOutPut))
+                    {
+                        checkStatus = false;
+                        txtShowError.Text = "/ Book-id(ISBN) is not number";
+                    }
+                    if (!int.TryParse(txtPrice.Text, out numberOutPut))
+                    {
+                        checkStatus = false;
+                        txtShowError.Text += "/ Price is not number";
+                    }
+                }
+                 
+
+                // add data
+                if (checkStatus)
+                {
+                    Boolean status = books.AddData(int.Parse(txtISBN.Text), txtTitle.Text, txtDescription.Text, int.Parse(txtPrice.Text));
+                    if (status)
+                    {
+                        MessageBox.Show("Create book information successful");
+                        // clear data
+                        txtISBN.Text = string.Empty;
+                        txtTitle.Text = string.Empty;
+                        txtDescription.Text = string.Empty;
+                        txtPrice.Text = string.Empty;
+                    } 
+                }
+                else
+                {
+                    MessageBox.Show("Can not create book's information!");
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.ToString());
-            }
-            
-        }
-
-        private void CreateNewBook(object sender, RoutedEventArgs e)
-        {
-            try
-            {
-                books.AddData(txtISBN.Text, txtTitle.Text, txtDescription.Text, txtPrice.Text);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.ToString());
+                MessageBox.Show(ex.Message);
+                MessageBox.Show("Can not create book's information!");
+                
             }
         }
     }

@@ -83,7 +83,7 @@
 
         <!--Error show-->
         <Grid  Grid.Row="2" Background="#FFCDB2" >
-            <TextBlock Text="Error" HorizontalAlignment="Right" Foreground="#FFFF6685" Margin="0,0,20,0" FontWeight="Bold" />
+            <TextBlock x:Name="txtShowError" Text="" HorizontalAlignment="Right" Foreground="#FFFF6685" Margin="0,0,20,0" FontWeight="Bold" />
         </Grid>
     </Grid>
 </Page>

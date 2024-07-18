@@ -51,7 +51,12 @@ namespace BookStoreApp.SQLite
                         //query.GetString(2); //Description
                         //query.GetDouble(3); //Price
 
-                        entries.Add(new BookModel { ISBN = query.GetInt32(0), title = query.GetString(1), description = query.GetString(2), price = query.GetDouble(3) });
+                        entries.Add(new BookModel { 
+                            ISBN = query.IsDBNull(query.GetOrdinal("ISBN"))? 0: query.GetInt32(query.GetOrdinal("ISBN")),
+                            title = query.IsDBNull(query.GetOrdinal("Title")) ? string.Empty : query.GetString(query.GetOrdinal("Title")),
+                            description = query.IsDBNull(query.GetOrdinal("Description")) ? string.Empty : query.GetString(query.GetOrdinal("Description")),
+                            price = query.IsDBNull(query.GetOrdinal("Price")) ? 0.0 : query.GetDouble(query.GetOrdinal("Price"))
+                        });
                     }
                     db.Close();
                 }
@@ -82,7 +87,13 @@ namespace BookStoreApp.SQLite
                     while (query.Read())
                     {
                         //entries.Add(query.GetString(0));
-                        entries.Add(new BookModel { ISBN = query.GetInt32(0), title = query.GetString(1), description = query.GetString(2), price = query.GetDouble(3) });
+                        entries.Add(new BookModel
+                        {
+                            ISBN = query.IsDBNull(query.GetOrdinal("ISBN")) ? 0 : query.GetInt32(query.GetOrdinal("ISBN")),
+                            title = query.IsDBNull(query.GetOrdinal("Title")) ? string.Empty : query.GetString(query.GetOrdinal("Title")),
+                            description = query.IsDBNull(query.GetOrdinal("Description")) ? string.Empty : query.GetString(query.GetOrdinal("Description")),
+                            price = query.IsDBNull(query.GetOrdinal("Price")) ? 0.0 : query.GetDouble(query.GetOrdinal("Price"))
+                        });
                     }
                     db.Close();
                 }
@@ -102,7 +113,7 @@ namespace BookStoreApp.SQLite
             //throw new NotImplementedException();
         }
 
-        public Boolean AddData(string bookId, string bookName, string bookDesc, string bookPrice)
+        public Boolean AddData(int bookId, string bookName, string bookDesc, int bookPrice)
         {
             try
             {

@@ -1,0 +1,97 @@
+﻿<Page x:Class="BookStoreApp.allPage.SalesManagement"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BookStoreApp.allPage"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="SalesManagement">
+
+    <Grid Background="#FFFFB4A2">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions >
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+            <RowDefinition Height="20" />
+
+        </Grid.RowDefinitions>
+        <!--Nav bar-->
+        <Grid Grid.Row="0" Background="#6D6875">
+            <TextBlock HorizontalAlignment="Left" Margin="30,0,0,0" TextWrapping="Wrap" Text="Flack Shop" VerticalAlignment="Center" FontSize="24" FontFamily="Mistral" Foreground="#FFFFB4A2" />
+        </Grid>
+        <!--Content-->
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <!--headder-->
+            <TextBlock Grid.Row="0" HorizontalAlignment="Center"  TextWrapping="Wrap" Text="Sales Management" TextAlignment="Center" VerticalAlignment="Center" Width="248" FontSize="24" FontWeight="Bold"/>
+            <Button  Grid.Row="0" Content="Go back" HorizontalAlignment="Left" Margin="30,0,0,0" VerticalAlignment="Center" Background="#FFFFE1BA" BorderBrush="{x:Null}" FontSize="16" Padding="10,5,10,5" BorderThickness="0,0,0,0" Click="GoBack" Cursor="Hand">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="20"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <!--input list-->
+            <Grid Grid.Row="1" Margin="20"  VerticalAlignment="Top">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <!--customer Id-->
+                <Grid Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right" Height="50"  VerticalAlignment="Center">
+                    <TextBox x:Name="txtCustomerId" HorizontalAlignment="Center" Margin="0,18,0,0"  TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="296" BorderBrush="{x:Null}" FontSize="20" Background="#FF6D6875" Foreground="#FFFFCDB2"/>
+                    <TextBlock HorizontalAlignment="Left" Height="13" Margin="5,0,0,0" TextWrapping="Wrap" Text="Customer ID" VerticalAlignment="Top"/>
+                </Grid>
+                <!--ISBN-->
+                <Grid Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" Height="50"  VerticalAlignment="Center">
+                    <TextBox x:Name="txtISBN" HorizontalAlignment="Center" Margin="0,21,0,0" MaxLength="50" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="296" BorderBrush="{x:Null}" FontSize="20" Background="#FF6D6875" Foreground="#FFFFCDB2"/>
+                    <TextBlock HorizontalAlignment="Left" Height="13" Margin="5,0,0,0" TextWrapping="Wrap" Text="ISBN" VerticalAlignment="Top"/>
+                </Grid>
+                <!--show customer id result-->
+                <Grid Grid.Row="0" Grid.Column="1"  Height="Auto" Width="Auto" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+                    <TextBlock x:Name="txtShowCustomer" HorizontalAlignment="Stretch" Width="Auto" Height="Auto" Margin="5,0,0,0" TextWrapping="Wrap"  VerticalAlignment="Center" Text="" FontSize="20"></TextBlock>
+                </Grid>
+                <!--show customer id result-->
+                <Grid Grid.Row="1" Grid.Column="1"  Height="Auto" Width="Auto" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+                    <TextBlock x:Name="txtShowISBN" HorizontalAlignment="Stretch" Width="Auto" Height="Auto" Margin="5,0,0,0" TextWrapping="Wrap"  VerticalAlignment="Center" Text="" FontSize="20"></TextBlock>
+                </Grid>
+
+                <!--QTY-->
+                <Grid Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right" Height="50"  VerticalAlignment="Center">
+                    <TextBox x:Name="txtQuantity" HorizontalAlignment="Center" Margin="0,21,0,0" MaxLength="50" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="296" BorderBrush="{x:Null}" FontSize="20" Background="#FF6D6875" Foreground="#FFFFCDB2"/>
+                    <TextBlock HorizontalAlignment="Left" Height="13" Margin="5,0,0,0" TextWrapping="Wrap" Text="Quantity" VerticalAlignment="Top"/>
+                </Grid>
+                <!--total price-->
+                <Grid Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" Height="50"  VerticalAlignment="Center">
+                    <TextBox x:Name="txtTotalPrice" HorizontalAlignment="Center" Margin="0,21,0,0" MaxLength="50" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="296" BorderBrush="{x:Null}" FontSize="20" Background="#FF6D6875" Foreground="#FFFFCDB2" IsEnabled="false"/>
+                    <TextBlock HorizontalAlignment="Left" Height="13" Margin="5,0,0,0" TextWrapping="Wrap" Text="Total Price" VerticalAlignment="Top"/>
+                </Grid>
+                <!--Submit-->
+                <Grid Grid.Row="3" Grid.ColumnSpan="2" HorizontalAlignment="Center" Height="50" Margin="20" VerticalAlignment="Center">
+                    <Button x:Name="submitBTN" Content="Check information" HorizontalAlignment="Center" Height="40"    VerticalAlignment="Center" Width="296" BorderBrush="{x:Null}" Foreground="#FFFFCDB2" Background="#FFB5838D" Click="SubmitClick"/>
+                </Grid>
+            </Grid>
+        </Grid>
+
+        <!--Error show-->
+        <Grid  Grid.Row="2" Background="#FFCDB2" >
+            <TextBlock x:Name="txtShowError" Text="" HorizontalAlignment="Right" Foreground="#FFFF6685" Margin="0,0,20,0" FontWeight="Bold" />
+        </Grid>
+    </Grid>
+</Page>

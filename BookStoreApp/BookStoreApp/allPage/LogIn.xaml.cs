@@ -24,5 +24,29 @@ namespace BookStoreApp.allPage
         {
             InitializeComponent();
         }
+
+        private void clickLogin(object sender, RoutedEventArgs e)
+        {
+            Boolean checkStatus = false;
+            //validation
+            if (txtEmail.Text.Length==0 || txtPassword.Text.Length==0)
+            {
+                MessageBox.Show("Please input email and password");
+                checkStatus = false;
+            }
+            else
+            {
+                //when you pass all validation
+                // in future I can use database for authentication
+                MessageBox.Show($"Welcome {txtEmail.Text}");
+                checkStatus = true;
+            }
+
+            if (checkStatus)
+            {
+                MainMenu mainMenu = new MainMenu();
+                NavigationService.Navigate(mainMenu);
+            }
+        }
     }
 }

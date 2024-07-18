@@ -15,27 +15,19 @@ using System.Windows.Shapes;
 
 namespace BookStoreApp.allPage
 {
-    /// <summary>
-    /// Interaction logic for BookManagement.xaml
-    /// </summary>
     public partial class BookManagement : Page
     {
         public BookManagement()
         {
             InitializeComponent();
-            createBookBTN.OnAction += MoveToCreate;// use element's name for binding method to usercontrol
-            //updateBTN.OnAction += MoveToUpdate;
+            createBookBTN.OnAction += MoveToCreate;// use element's name to binding method for usercontrol
             bookListBTN.OnAction += MoveToList;
         }
 
         private void GoBack(object sender, RoutedEventArgs e)
         {
-            NavigationService.GoBack();
-        }
-
-        private void NavigationBTN_Loaded(object sender, RoutedEventArgs e)
-        {
-
+            MainMenu mainMenu = new MainMenu(); // using navigate to  main menu
+            NavigationService.Navigate(mainMenu);
         }
 
         private void MoveToCreate()

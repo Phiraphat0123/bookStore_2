@@ -23,6 +23,26 @@ namespace BookStoreApp.allPage
         public CustomerManagement()
         {
             InitializeComponent();
+            createCustomerBTN.OnAction +=MoveToCreate;
+            customerListBTN.OnAction +=MoveToList;
+        }
+
+        private void GoBack(object sender, RoutedEventArgs e)
+        {
+            MainMenu mainMenu = new MainMenu();
+            NavigationService.Navigate(mainMenu);
+        }
+
+        private void MoveToCreate()
+        {
+            CustomerManagementCreate customerManagementCreate = new CustomerManagementCreate(); 
+            NavigationService.Navigate(customerManagementCreate);
+        }
+
+        private void MoveToList()
+        {
+            CustomerManagementList customerManagementList = new CustomerManagementList();
+            NavigationService.Navigate(customerManagementList);
         }
     }
 }

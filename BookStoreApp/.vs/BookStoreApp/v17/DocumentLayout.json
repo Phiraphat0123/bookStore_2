@@ -3,32 +3,156 @@
   "WorkspaceRootPath": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\bookstoreapp\\allpage\\bookmanagementedit.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\allpage\\bookmanagementedit.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|d:\\study\\learning\\c#\\bookstore_project_1\\bookstore_2\\bookstoreapp\\bookstoreapp\\allpage\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\allpage\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|d:\\study\\learning\\c#\\bookstore_project_1\\bookstore_2\\bookstoreapp\\bookstoreapp\\allpage\\bookmanagementedit.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\allpage\\bookmanagementedit.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|d:\\study\\learning\\c#\\bookstore_project_1\\bookstore_2\\bookstoreapp\\bookstoreapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|d:\\study\\learning\\c#\\bookstore_project_1\\bookstore_2\\bookstoreapp\\bookstoreapp\\sqlite\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\bookstoreapp\\sqlite\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\sqlite\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|d:\\study\\learning\\c#\\bookstore_project_1\\bookstore_2\\bookstoreapp\\bookstoreapp\\sqlite\\customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\sqlite\\customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\bookstoreapp\\sqlite\\sales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\sqlite\\sales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|d:\\study\\learning\\c#\\bookstore_project_1\\bookstore_2\\bookstoreapp\\bookstoreapp\\allpage\\mainmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\allpage\\mainmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|d:\\study\\learning\\c#\\bookstore_project_1\\bookstore_2\\bookstoreapp\\bookstoreapp\\allpage\\saleshistory.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\allpage\\saleshistory.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\bookstoreapp\\allpage\\saleshistorydetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\allpage\\saleshistorydetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\bookstoreapp\\allpage\\saleshistorydetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\allpage\\saleshistorydetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\bookstoreapp\\allpage\\customermanagementlist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\allpage\\customermanagementlist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|d:\\study\\learning\\c#\\bookstore_project_1\\bookstore_2\\bookstoreapp\\bookstoreapp\\allpage\\bookmanagementlist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\allpage\\bookmanagementlist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|d:\\study\\learning\\c#\\bookstore_project_1\\bookstore_2\\bookstoreapp\\bookstoreapp\\allpage\\customermanagementlist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\allpage\\customermanagementlist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|d:\\study\\learning\\c#\\bookstore_project_1\\bookstore_2\\bookstoreapp\\bookstoreapp\\allpage\\bookmanagementlist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\allpage\\bookmanagementlist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\bookstoreapp\\allpage\\saleshistory.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\allpage\\saleshistory.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\bookstoreapp\\allpage\\salesmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\allpage\\salesmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|d:\\study\\learning\\c#\\bookstore_project_1\\bookstore_2\\bookstoreapp\\bookstoreapp\\allpage\\salesmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\allpage\\salesmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|d:\\study\\learning\\c#\\bookstore_project_1\\bookstore_2\\bookstoreapp\\bookstoreapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|d:\\study\\learning\\c#\\bookstore_project_1\\bookstore_2\\bookstoreapp\\bookstoreapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|d:\\study\\learning\\c#\\bookstore_project_1\\bookstore_2\\bookstoreapp\\bookstoreapp\\allpage\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\allpage\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\bookstoreapp\\allpage\\bookmanagementcreate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\allpage\\bookmanagementcreate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|d:\\study\\learning\\c#\\bookstore_project_1\\bookstore_2\\bookstoreapp\\bookstoreapp\\allpage\\customermanagementedit.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\allpage\\customermanagementedit.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|d:\\study\\learning\\c#\\bookstore_project_1\\bookstore_2\\bookstoreapp\\bookstoreapp\\allpage\\customermanagementedit.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\allpage\\customermanagementedit.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|d:\\study\\learning\\c#\\bookstore_project_1\\bookstore_2\\bookstoreapp\\bookstoreapp\\allpage\\customermanagementdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\allpage\\customermanagementdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\bookstoreapp\\allpage\\customermanagementdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\allpage\\customermanagementdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|d:\\study\\learning\\c#\\bookstore_project_1\\bookstore_2\\bookstoreapp\\bookstoreapp\\allpage\\customermanagementcreate.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\allpage\\customermanagementcreate.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|d:\\study\\learning\\c#\\bookstore_project_1\\bookstore_2\\bookstoreapp\\bookstoreapp\\allpage\\customermanagementcreate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\allpage\\customermanagementcreate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|d:\\study\\learning\\c#\\bookstore_project_1\\bookstore_2\\bookstoreapp\\bookstoreapp\\allpage\\customermanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\allpage\\customermanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|d:\\study\\learning\\c#\\bookstore_project_1\\bookstore_2\\bookstoreapp\\bookstoreapp\\allpage\\customermanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\allpage\\customermanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|d:\\study\\learning\\c#\\bookstore_project_1\\bookstore_2\\bookstoreapp\\bookstoreapp\\allpage\\bookmanagementedit.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\allpage\\bookmanagementedit.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|d:\\study\\learning\\c#\\bookstore_project_1\\bookstore_2\\bookstoreapp\\bookstoreapp\\allpage\\bookmanagementdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\allpage\\bookmanagementdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|d:\\study\\learning\\c#\\bookstore_project_1\\bookstore_2\\bookstoreapp\\bookstoreapp\\allpage\\bookmanagementcreate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\allpage\\bookmanagementcreate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|d:\\study\\learning\\c#\\bookstore_project_1\\bookstore_2\\bookstoreapp\\bookstoreapp\\allpage\\bookmanagementcreate.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\allpage\\bookmanagementcreate.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\bookstoreapp\\allpage\\bookmanagementdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|d:\\study\\learning\\c#\\bookstore_project_1\\bookstore_2\\bookstoreapp\\bookstoreapp\\allpage\\bookmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\allpage\\bookmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\bookstoreapp\\allpage\\mainmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\allpage\\mainmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|d:\\study\\learning\\c#\\bookstore_project_1\\bookstore_2\\bookstoreapp\\bookstoreapp\\allpage\\bookmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\allpage\\bookmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|d:\\study\\learning\\c#\\bookstore_project_1\\bookstore_2\\bookstoreapp\\bookstoreapp\\controller\\navigationbtn.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\controller\\navigationbtn.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|d:\\study\\learning\\c#\\bookstore_project_1\\bookstore_2\\bookstoreapp\\bookstoreapp\\allpage\\bookmanagementdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\allpage\\bookmanagementdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\bookstoreapp\\model\\salesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\model\\salesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\bookstoreapp\\model\\bookmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFFA2AA-EBF4-41CD-B4A5-570540CAFB5C}|BookStoreApp\\BookStoreApp.csproj|solutionrelative:bookstoreapp\\model\\bookmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,44 +162,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "BookManagementDetail.xaml.cs",
-              "DocumentMoniker": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\BookManagementDetail.xaml.cs",
-              "RelativeDocumentMoniker": "BookStoreApp\\allPage\\BookManagementDetail.xaml.cs",
-              "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\BookManagementDetail.xaml.cs",
-              "RelativeToolTip": "BookStoreApp\\allPage\\BookManagementDetail.xaml.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAYwDMAAAA8AAAA",
+              "Title": "Sales.cs",
+              "DocumentMoniker": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\SQLite\\Sales.cs",
+              "RelativeDocumentMoniker": "BookStoreApp\\SQLite\\Sales.cs",
+              "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\SQLite\\Sales.cs",
+              "RelativeToolTip": "BookStoreApp\\SQLite\\Sales.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAgwGQAAACRAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T07:58:43.495Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BookManagementEdit.xaml.cs",
-              "DocumentMoniker": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\BookManagementEdit.xaml.cs",
-              "RelativeDocumentMoniker": "BookStoreApp\\allPage\\BookManagementEdit.xaml.cs",
-              "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\BookManagementEdit.xaml.cs",
-              "RelativeToolTip": "BookStoreApp\\allPage\\BookManagementEdit.xaml.cs",
-              "ViewState": "AQIAAGAAAAAAAAAAAAAAAGoAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T08:24:43.804Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BookManagementEdit.xaml",
-              "DocumentMoniker": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\BookManagementEdit.xaml",
-              "RelativeDocumentMoniker": "BookStoreApp\\allPage\\BookManagementEdit.xaml",
-              "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\BookManagementEdit.xaml",
-              "RelativeToolTip": "BookStoreApp\\allPage\\BookManagementEdit.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-12T07:58:36.783Z",
+              "WhenOpened": "2024-07-16T03:39:21.298Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -86,47 +186,461 @@
               "RelativeDocumentMoniker": "BookStoreApp\\SQLite\\Books.cs",
               "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\SQLite\\Books.cs",
               "RelativeToolTip": "BookStoreApp\\SQLite\\Books.cs",
-              "ViewState": "AQIAAK0AAAAAAAAAAAAgwB0AAAANAAAA",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAgwEoAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T08:15:31.096Z",
+              "WhenOpened": "2024-07-16T03:40:24.889Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "BookManagementList.xaml.cs",
-              "DocumentMoniker": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\BookManagementList.xaml.cs",
-              "RelativeDocumentMoniker": "BookStoreApp\\allPage\\BookManagementList.xaml.cs",
-              "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\BookManagementList.xaml.cs",
-              "RelativeToolTip": "BookStoreApp\\allPage\\BookManagementList.xaml.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAAwCEAAAAMAAAA",
+              "Title": "Customers.cs",
+              "DocumentMoniker": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\SQLite\\Customers.cs",
+              "RelativeDocumentMoniker": "BookStoreApp\\SQLite\\Customers.cs",
+              "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\SQLite\\Customers.cs",
+              "RelativeToolTip": "BookStoreApp\\SQLite\\Customers.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAgwFgAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T07:59:04.653Z",
+              "WhenOpened": "2024-07-18T09:38:22.512Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SalesHistory.xaml.cs",
+              "DocumentMoniker": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\SalesHistory.xaml.cs",
+              "RelativeDocumentMoniker": "BookStoreApp\\allPage\\SalesHistory.xaml.cs",
+              "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\SalesHistory.xaml.cs",
+              "RelativeToolTip": "BookStoreApp\\allPage\\SalesHistory.xaml.cs",
+              "ViewState": "AQIAANkAAAAAAAAAAAAkwHgAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T07:08:36.41Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "MainMenu.xaml",
+              "DocumentMoniker": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\MainMenu.xaml",
+              "RelativeDocumentMoniker": "BookStoreApp\\allPage\\MainMenu.xaml",
+              "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\MainMenu.xaml",
+              "RelativeToolTip": "BookStoreApp\\allPage\\MainMenu.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-18T13:09:23.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "BookStoreApp\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "BookStoreApp\\MainWindow.xaml.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABsAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T13:10:24.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LogIn.xaml",
+              "DocumentMoniker": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\LogIn.xaml",
+              "RelativeDocumentMoniker": "BookStoreApp\\allPage\\LogIn.xaml",
+              "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\LogIn.xaml",
+              "RelativeToolTip": "BookStoreApp\\allPage\\LogIn.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-18T12:37:19.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SalesHistoryDetail.xaml.cs",
+              "DocumentMoniker": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\SalesHistoryDetail.xaml.cs",
+              "RelativeDocumentMoniker": "BookStoreApp\\allPage\\SalesHistoryDetail.xaml.cs",
+              "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\SalesHistoryDetail.xaml.cs",
+              "RelativeToolTip": "BookStoreApp\\allPage\\SalesHistoryDetail.xaml.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAUwCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T07:10:55.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SalesHistoryDetail.xaml",
+              "DocumentMoniker": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\SalesHistoryDetail.xaml",
+              "RelativeDocumentMoniker": "BookStoreApp\\allPage\\SalesHistoryDetail.xaml",
+              "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\SalesHistoryDetail.xaml",
+              "RelativeToolTip": "BookStoreApp\\allPage\\SalesHistoryDetail.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-17T07:00:46.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CustomerManagementList.xaml",
+              "DocumentMoniker": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\CustomerManagementList.xaml",
+              "RelativeDocumentMoniker": "BookStoreApp\\allPage\\CustomerManagementList.xaml",
+              "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\CustomerManagementList.xaml",
+              "RelativeToolTip": "BookStoreApp\\allPage\\CustomerManagementList.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-18T12:12:41.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CustomerManagementList.xaml.cs",
+              "DocumentMoniker": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\CustomerManagementList.xaml.cs",
+              "RelativeDocumentMoniker": "BookStoreApp\\allPage\\CustomerManagementList.xaml.cs",
+              "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\CustomerManagementList.xaml.cs",
+              "RelativeToolTip": "BookStoreApp\\allPage\\CustomerManagementList.xaml.cs",
+              "ViewState": "AQIAANUAAAAAAAAAAAAAAIMAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T06:48:28.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BookManagementList.xaml.cs",
+              "DocumentMoniker": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\BookManagementList.xaml.cs",
+              "RelativeDocumentMoniker": "BookStoreApp\\allPage\\BookManagementList.xaml.cs",
+              "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\BookManagementList.xaml.cs",
+              "RelativeToolTip": "BookStoreApp\\allPage\\BookManagementList.xaml.cs",
+              "ViewState": "AQIAAH8AAAAAAAAAAAAAAIUAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T09:03:41.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BookManagementList.xaml",
+              "DocumentMoniker": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\BookManagementList.xaml",
+              "RelativeDocumentMoniker": "BookStoreApp\\allPage\\BookManagementList.xaml",
+              "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\BookManagementList.xaml",
+              "RelativeToolTip": "BookStoreApp\\allPage\\BookManagementList.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-18T09:11:09.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SalesHistory.xaml",
+              "DocumentMoniker": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\SalesHistory.xaml",
+              "RelativeDocumentMoniker": "BookStoreApp\\allPage\\SalesHistory.xaml",
+              "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\SalesHistory.xaml",
+              "RelativeToolTip": "BookStoreApp\\allPage\\SalesHistory.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-16T07:08:39.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SalesManagement.xaml.cs",
+              "DocumentMoniker": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\SalesManagement.xaml.cs",
+              "RelativeDocumentMoniker": "BookStoreApp\\allPage\\SalesManagement.xaml.cs",
+              "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\SalesManagement.xaml.cs",
+              "RelativeToolTip": "BookStoreApp\\allPage\\SalesManagement.xaml.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAgwDMAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T05:30:21.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SalesManagement.xaml",
+              "DocumentMoniker": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\SalesManagement.xaml",
+              "RelativeDocumentMoniker": "BookStoreApp\\allPage\\SalesManagement.xaml",
+              "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\SalesManagement.xaml",
+              "RelativeToolTip": "BookStoreApp\\allPage\\SalesManagement.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-18T13:12:46.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\App.xaml",
+              "RelativeDocumentMoniker": "BookStoreApp\\App.xaml",
+              "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\App.xaml",
+              "RelativeToolTip": "BookStoreApp\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-18T13:09:57.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "BookStoreApp\\MainWindow.xaml",
+              "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\MainWindow.xaml",
+              "RelativeToolTip": "BookStoreApp\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-18T13:09:59.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LogIn.xaml.cs",
+              "DocumentMoniker": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\LogIn.xaml.cs",
+              "RelativeDocumentMoniker": "BookStoreApp\\allPage\\LogIn.xaml.cs",
+              "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\LogIn.xaml.cs",
+              "RelativeToolTip": "BookStoreApp\\allPage\\LogIn.xaml.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAUwC8AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T12:57:06.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "BookManagementCreate.xaml",
               "DocumentMoniker": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\BookManagementCreate.xaml",
               "RelativeDocumentMoniker": "BookStoreApp\\allPage\\BookManagementCreate.xaml",
               "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\BookManagementCreate.xaml",
               "RelativeToolTip": "BookStoreApp\\allPage\\BookManagementCreate.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-12T08:40:42.828Z",
+              "WhenOpened": "2024-07-16T05:03:50.055Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 20,
+              "Title": "CustomerManagementEdit.xaml.cs",
+              "DocumentMoniker": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\CustomerManagementEdit.xaml.cs",
+              "RelativeDocumentMoniker": "BookStoreApp\\allPage\\CustomerManagementEdit.xaml.cs",
+              "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\CustomerManagementEdit.xaml.cs",
+              "RelativeToolTip": "BookStoreApp\\allPage\\CustomerManagementEdit.xaml.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAkwEQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T12:09:51.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CustomerManagementEdit.xaml",
+              "DocumentMoniker": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\CustomerManagementEdit.xaml",
+              "RelativeDocumentMoniker": "BookStoreApp\\allPage\\CustomerManagementEdit.xaml",
+              "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\CustomerManagementEdit.xaml",
+              "RelativeToolTip": "BookStoreApp\\allPage\\CustomerManagementEdit.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-18T12:08:38.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CustomerManagementCreate.xaml.cs",
+              "DocumentMoniker": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\CustomerManagementCreate.xaml.cs",
+              "RelativeDocumentMoniker": "BookStoreApp\\allPage\\CustomerManagementCreate.xaml.cs",
+              "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\CustomerManagementCreate.xaml.cs",
+              "RelativeToolTip": "BookStoreApp\\allPage\\CustomerManagementCreate.xaml.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAgwE4AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T12:01:36.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CustomerManagementDetail.xaml",
+              "DocumentMoniker": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\CustomerManagementDetail.xaml",
+              "RelativeDocumentMoniker": "BookStoreApp\\allPage\\CustomerManagementDetail.xaml",
+              "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\CustomerManagementDetail.xaml",
+              "RelativeToolTip": "BookStoreApp\\allPage\\CustomerManagementDetail.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-17T07:00:54.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CustomerManagementDetail.xaml.cs",
+              "DocumentMoniker": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\CustomerManagementDetail.xaml.cs",
+              "RelativeDocumentMoniker": "BookStoreApp\\allPage\\CustomerManagementDetail.xaml.cs",
+              "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\CustomerManagementDetail.xaml.cs",
+              "RelativeToolTip": "BookStoreApp\\allPage\\CustomerManagementDetail.xaml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T09:10:42.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CustomerManagement.xaml.cs",
+              "DocumentMoniker": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\CustomerManagement.xaml.cs",
+              "RelativeDocumentMoniker": "BookStoreApp\\allPage\\CustomerManagement.xaml.cs",
+              "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\CustomerManagement.xaml.cs",
+              "RelativeToolTip": "BookStoreApp\\allPage\\CustomerManagement.xaml.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAcwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T12:01:16.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CustomerManagementCreate.xaml",
+              "DocumentMoniker": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\CustomerManagementCreate.xaml",
+              "RelativeDocumentMoniker": "BookStoreApp\\allPage\\CustomerManagementCreate.xaml",
+              "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\CustomerManagementCreate.xaml",
+              "RelativeToolTip": "BookStoreApp\\allPage\\CustomerManagementCreate.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-18T12:01:25.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CustomerManagement.xaml",
+              "DocumentMoniker": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\CustomerManagement.xaml",
+              "RelativeDocumentMoniker": "BookStoreApp\\allPage\\CustomerManagement.xaml",
+              "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\CustomerManagement.xaml",
+              "RelativeToolTip": "BookStoreApp\\allPage\\CustomerManagement.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-18T11:59:40.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BookManagementEdit.xaml.cs",
+              "DocumentMoniker": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\BookManagementEdit.xaml.cs",
+              "RelativeDocumentMoniker": "BookStoreApp\\allPage\\BookManagementEdit.xaml.cs",
+              "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\BookManagementEdit.xaml.cs",
+              "RelativeToolTip": "BookStoreApp\\allPage\\BookManagementEdit.xaml.cs",
+              "ViewState": "AQIAAG4AAAAAAAAAAADwv0wAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T10:36:17.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "BookManagement.xaml.cs",
+              "DocumentMoniker": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\BookManagement.xaml.cs",
+              "RelativeDocumentMoniker": "BookStoreApp\\allPage\\BookManagement.xaml.cs",
+              "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\BookManagement.xaml.cs",
+              "RelativeToolTip": "BookStoreApp\\allPage\\BookManagement.xaml.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T10:28:00.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "BookManagementDetail.xaml.cs",
+              "DocumentMoniker": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\BookManagementDetail.xaml.cs",
+              "RelativeDocumentMoniker": "BookStoreApp\\allPage\\BookManagementDetail.xaml.cs",
+              "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\BookManagementDetail.xaml.cs",
+              "RelativeToolTip": "BookStoreApp\\allPage\\BookManagementDetail.xaml.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAwDEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T09:09:45.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "MainMenu.xaml.cs",
+              "DocumentMoniker": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\MainMenu.xaml.cs",
+              "RelativeDocumentMoniker": "BookStoreApp\\allPage\\MainMenu.xaml.cs",
+              "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\MainMenu.xaml.cs",
+              "RelativeToolTip": "BookStoreApp\\allPage\\MainMenu.xaml.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAtwC8AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T05:30:58.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "BookManagementCreate.xaml.cs",
+              "DocumentMoniker": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\BookManagementCreate.xaml.cs",
+              "RelativeDocumentMoniker": "BookStoreApp\\allPage\\BookManagementCreate.xaml.cs",
+              "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\BookManagementCreate.xaml.cs",
+              "RelativeToolTip": "BookStoreApp\\allPage\\BookManagementCreate.xaml.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAgwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T10:27:06.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "BookManagement.xaml",
+              "DocumentMoniker": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\BookManagement.xaml",
+              "RelativeDocumentMoniker": "BookStoreApp\\allPage\\BookManagement.xaml",
+              "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\BookManagement.xaml",
+              "RelativeToolTip": "BookStoreApp\\allPage\\BookManagement.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-18T10:13:07.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "NavigationBTN.xaml",
+              "DocumentMoniker": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\Controller\\NavigationBTN.xaml",
+              "RelativeDocumentMoniker": "BookStoreApp\\Controller\\NavigationBTN.xaml",
+              "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\Controller\\NavigationBTN.xaml",
+              "RelativeToolTip": "BookStoreApp\\Controller\\NavigationBTN.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-18T10:19:25.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "SalesModel.cs",
+              "DocumentMoniker": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\Model\\SalesModel.cs",
+              "RelativeDocumentMoniker": "BookStoreApp\\Model\\SalesModel.cs",
+              "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\Model\\SalesModel.cs",
+              "RelativeToolTip": "BookStoreApp\\Model\\SalesModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T03:48:05.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
               "Title": "BookManagementDetail.xaml",
               "DocumentMoniker": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\BookManagementDetail.xaml",
               "RelativeDocumentMoniker": "BookStoreApp\\allPage\\BookManagementDetail.xaml",
               "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\allPage\\BookManagementDetail.xaml",
               "RelativeToolTip": "BookStoreApp\\allPage\\BookManagementDetail.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-11T06:16:54.239Z",
+              "WhenOpened": "2024-07-18T08:59:44.16Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "BookModel.cs",
+              "DocumentMoniker": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\Model\\BookModel.cs",
+              "RelativeDocumentMoniker": "BookStoreApp\\Model\\BookModel.cs",
+              "ToolTip": "D:\\study\\learning\\C#\\BookStore_Project_1\\bookStore_2\\BookStoreApp\\BookStoreApp\\Model\\BookModel.cs",
+              "RelativeToolTip": "BookStoreApp\\Model\\BookModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T03:49:40.596Z"
             }
           ]
         }

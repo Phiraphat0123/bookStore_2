@@ -7,7 +7,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
 
-    <Button  HorizontalAlignment="Center" VerticalAlignment="Center" Padding="15" Click="ActionButton">
+    <Button  HorizontalAlignment="Center" VerticalAlignment="Center" Padding="15" Click="ActionButton" BorderBrush="{x:Null}" Background="#FFE5989B" Cursor="Hand" >
         <Grid >
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>

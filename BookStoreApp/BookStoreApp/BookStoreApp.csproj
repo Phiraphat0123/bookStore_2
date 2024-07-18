@@ -98,28 +98,44 @@
     <Compile Include="allPage\CustomerManagement.xaml.cs">
       <DependentUpon>CustomerManagement.xaml</DependentUpon>
     </Compile>
+    <Compile Include="allPage\CustomerManagementCreate.xaml.cs">
+      <DependentUpon>CustomerManagementCreate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="allPage\CustomerManagementDetail.xaml.cs">
+      <DependentUpon>CustomerManagementDetail.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="allPage\CustomerManagementEdit.xaml.cs">
+      <DependentUpon>CustomerManagementEdit.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="allPage\CustomerManagementList.xaml.cs">
+      <DependentUpon>CustomerManagementList.xaml</DependentUpon>
+    </Compile>
     <Compile Include="allPage\LogIn.xaml.cs">
       <DependentUpon>LogIn.xaml</DependentUpon>
     </Compile>
     <Compile Include="allPage\MainMenu.xaml.cs">
       <DependentUpon>MainMenu.xaml</DependentUpon>
     </Compile>
-    <Compile Include="allPage\Register.xaml.cs">
-      <DependentUpon>Register.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="allPage\Sales.xaml.cs">
-      <DependentUpon>Sales.xaml</DependentUpon>
-    </Compile>
     <Compile Include="allPage\SalesHistory.xaml.cs">
       <DependentUpon>SalesHistory.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="allPage\SalesHistoryDetail.xaml.cs">
+      <DependentUpon>SalesHistoryDetail.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="allPage\SalesManagement.xaml.cs">
+      <DependentUpon>SalesManagement.xaml</DependentUpon>
     </Compile>
     <Compile Include="Controller\NavigationBTN.xaml.cs">
       <DependentUpon>NavigationBTN.xaml</DependentUpon>
     </Compile>
     <Compile Include="Model\BookModel.cs" />
+    <Compile Include="Model\CustomerModel.cs" />
     <Compile Include="Model\ImageLoading.cs" />
+    <Compile Include="Model\SalesModel.cs" />
     <Compile Include="SQLite\Books.cs" />
+    <Compile Include="SQLite\Customers.cs" />
     <Compile Include="SQLite\DataAccess.cs" />
+    <Compile Include="SQLite\Sales.cs" />
     <Page Include="allPage\BookManagement.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -144,6 +160,22 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="allPage\CustomerManagementCreate.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="allPage\CustomerManagementDetail.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="allPage\CustomerManagementEdit.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="allPage\CustomerManagementList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="allPage\LogIn.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -152,15 +184,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="allPage\Register.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="allPage\Sales.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="allPage\SalesHistory.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="allPage\SalesHistoryDetail.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="allPage\SalesManagement.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -220,7 +252,9 @@
   <ItemGroup>
     <Resource Include="icon\sales.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="icon\bin.png" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="allPage\book.png" />
   </ItemGroup>
@@ -229,6 +263,18 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="allPage\sales.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icon\create.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icon\detail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icon\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icon\list_2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

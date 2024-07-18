@@ -22,10 +22,9 @@ namespace BookStoreApp.allPage
     /// </summary>
     public partial class BookManagementDetail : Page
     {
-        private Books books;
-        private Boolean DatabaseStatus;
-        private List<Object> bookList;
-        private string isbn;
+         Books books;
+         List<Object> bookList;
+         string isbn;
 
         public BookManagementDetail()
         {
@@ -38,27 +37,24 @@ namespace BookStoreApp.allPage
             try
             {
                 books = new Books();
-                ISBN = id.Substring(5);
+                isbn = id.Substring(5);
                 
-
-                //MessageBox.Show(ISBN);
-                bookList = books.GetData(int.Parse(ISBN));
+                bookList = books.GetData(int.Parse(isbn));
 
                 //assign value to attribute
                 BookModel bookDetail = bookList[0] as BookModel;
-                txtISBN.Text = ISBN;
+                txtISBN.Text = isbn;
                 txtTitle.Text = bookDetail.title.ToString();
                 txtDesc.Text = bookDetail.description.ToString();
                 txtPrice.Text = bookDetail.price.ToString();
-                //MessageBox.Show($"{bookdetail.ISBN.ToString()}, {bookdetail.title.ToString()}");
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message+" testing");
+                MessageBox.Show(ex.Message);
+                txtShowError.Text = "/ Cannot show data";
             }
         }
 
-        public string ISBN { get => isbn; set => isbn = value; }
         private void GoBack(object sender, RoutedEventArgs e)
         {
             NavigationService.GoBack();

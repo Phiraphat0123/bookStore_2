@@ -22,12 +22,12 @@ namespace BookStoreApp.allPage
     /// </summary>
     public partial class BookManagementEdit : Page
     {
-        private string isbn;
-        private string title;
-        private string description;
-        private string price;
-        private List<Object> bookList;
-        private Books books;
+        string isbn;
+        string title;
+        string description;
+        string price;
+        List<Object> bookList;
+        Books books;
         
 
         public BookManagementEdit()
@@ -40,17 +40,16 @@ namespace BookStoreApp.allPage
             try
             {
                 books = new Books();
-                ISBN = id.Substring(5);
-                bookList = books.GetData(int.Parse(ISBN));
+                isbn = id.Substring(5);
+                bookList = books.GetData(int.Parse(isbn));
 
                 //assign
                 BookModel bookDetail = bookList[0] as BookModel;
-                txtISBN.Text = ISBN;
+                txtISBN.Text = isbn;
                 txtISBN.IsEnabled = false;
                 txtTitle.Text = bookDetail.title.ToString();
                 txtDescription.Text = bookDetail.description.ToString();
                 txtPrice.Text = bookDetail.price.ToString();
-                MessageBox.Show($"{bookDetail.ISBN.ToString()}, {bookDetail.title.ToString()}");
 
             }
             catch (Exception ex)
@@ -59,33 +58,21 @@ namespace BookStoreApp.allPage
             }
             
         }
-        public BookManagementEdit(string id, string title, string description, string price)
+        public BookManagementEdit(string id, string bookName, string bookDesc, string bookPrice)
         {
             InitializeComponent();
 
-            ISBN = id.Substring(4);
-            Title = title;
-            Description = description;
-            Price = price;
+            isbn = id.Substring(4);
+            title = bookName;
+            description = bookDesc ;
+            price = bookPrice;
 
-            txtISBN.Text = ISBN;
-            txtTitle.Text = Title;
-            txtDescription.Text = Description;
-            txtPrice.Text = Price;
+            txtISBN.Text = isbn;
+            txtTitle.Text = title;
+            txtDescription.Text = description;
+            txtPrice.Text = price;
         }
 
-        public string ISBN { get => isbn; set => isbn = value; }
-        public string Title1 { get => title; set => title = value; }
-        public string Description { get => description; set => description = value; }
-        public string Price { get => price; set => price = value; }
-
-        public void GetTesting()
-        {
-            MessageBox.Show(ISBN);
-            MessageBox.Show(Title);
-            MessageBox.Show(Description);
-            MessageBox.Show(Price);
-        }
 
         private void GoBack(object sender, RoutedEventArgs e)
         {
@@ -97,19 +84,53 @@ namespace BookStoreApp.allPage
         {
             try
             {
-                BookManagementList bookManagementList = new BookManagementList();
-                Boolean status = books.UpdateData(int.Parse(txtISBN.Text),txtTitle.Text,txtDescription.Text,int.Parse(txtPrice.Text));
-                if (status)
+                int numberOutPut;
+                Boolean checkStatus = true;
+                //validation
+                // check all data null?
+                if (txtISBN.Text.Length == 0 || txtTitle.Text.Length == 0 ||
+                    txtDescription.Text.Length == 0 || txtPrice.Text.Length == 0)
                 {
-                    NavigationService.Navigate(bookManagementList);
+                    checkStatus = false;
+                    txtShowError.Text = "/ Please input all book information";
                 }
-                else {
-                    // show error for user
+                else
+                {
+                    // check is number?
+                    if (!int.TryParse(txtISBN.Text, out numberOutPut))
+                    {
+                        checkStatus = false;
+                        txtShowError.Text = "/ Book-id(ISBN) is not number";
+                    }
+                    if (!int.TryParse(txtPrice.Text, out numberOutPut))
+                    {
+                        checkStatus = false;
+                        txtShowError.Text += "/ Price is not number";
+                    }
                 }
+
+                if (checkStatus)
+                {
+                    
+                    Boolean status = books.UpdateData(int.Parse(txtISBN.Text), txtTitle.Text, txtDescription.Text, int.Parse(txtPrice.Text));
+                    if (status)
+                    {
+                        BookManagementList bookManagementList = new BookManagementList();
+                        NavigationService.Navigate(bookManagementList);
+
+                        //NavigationService.GoBack();
+                    } 
+                }
+                else
+                {
+                    MessageBox.Show("Can not create book's information!");
+                }
+                
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
+                MessageBox.Show("Can not create book's information!");
             }
 
         }
