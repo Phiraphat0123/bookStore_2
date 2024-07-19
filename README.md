@@ -20,9 +20,9 @@
 
 4. การออกแบบฐานข้อมูล จากโจทย์ได้กำหนดคร่าวๆทั้งหมด 3 ตารางดังนี้
 
-
-    | Customers  |
-    |--------------|----------|
-    | Customer_ID  | Data 1   |
-    | Customer_Name| Data 3   |
+    - Customers
+    | Columns | Data type |
+    | ---- | ---- |
+    | Customer_ID | Data 1 |
+    | Customer_Name | Data 3 |
 
