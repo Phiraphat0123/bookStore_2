@@ -21,6 +21,7 @@
 4. การออกแบบฐานข้อมูล จากโจทย์ได้กำหนดคร่าวๆทั้งหมด 3 ตารางดังนี้
 
     - Customers:
+    
     | Columns | Data type |
     | ---- | ---- |
     | Customer_ID | `INTEGER PRIMARY KEY` |
@@ -29,6 +30,7 @@
     | Email | `varchar(50)` |
 
     - Books:
+
     | Columns | Data type |
     | ---- | ---- |
     | ISBN | `INTEGER PRIMARY KEY` |
@@ -37,6 +39,7 @@
     | Price | `DOUBLE` |
 
     - Sales:
+
     | Columns | Data type |
     | ---- | ---- |
     | Sale_ID | `INTEGER PRIMARY KEY AUTOINCREMENT` |
