@@ -108,5 +108,10 @@
 
 ## สรุปผลที่ได้
 
-1. ได้ทบทวนความรู้ที่ได้เรียนไป
-2. ได้ทดลองและพัฒนาต่อยอดจาก Project ก่อนหน้า [BookStoreApp](https://github.com/Phiraphat0123/BookStoreApp)
+1. ได้ทบทวนความรู้และสามารถนำไปใช้งานได้จริงเกี่ยวกับ OOP concept programing เพื่อทำให้เราเข้าใจมากขึ้น
+2. พัฒนาต่อยอดจาก Project ก่อนหน้า [BookStoreApp](https://github.com/Phiraphat0123/BookStoreApp) ให้ดียิ่งขึ้น
+3. ได้ความรู้ใหม่ๆเกี่ยวกับการออกแบบ วิธีใช้งาน `XAML` `Visual studio` และ `Tool` ต่างๆ
+
+
+## ref
+ - [Icon สวยๆ](https://www.flaticon.com/)
