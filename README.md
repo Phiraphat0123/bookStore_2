@@ -21,32 +21,32 @@
 4. การออกแบบฐานข้อมูล จากโจทย์ได้กำหนดคร่าวๆทั้งหมด 3 ตารางดังนี้
 
     - Customers:
-    
-    | Columns | Data type |
-    | ---- | ---- |
-    | Customer_ID | `INTEGER PRIMARY KEY` |
-    | Customer_Name | `varchar(50)` |
-    | Address | `varchar(50)` |
-    | Email | `varchar(50)` |
+
+        | Columns | Data type |
+        | ---- | ---- |
+        | Customer_ID | `INTEGER PRIMARY KEY` |
+        | Customer_Name | `varchar(50)` |
+        | Address | `varchar(50)` |
+        | Email | `varchar(50)` |
 
     - Books:
 
-    | Columns | Data type |
-    | ---- | ---- |
-    | ISBN | `INTEGER PRIMARY KEY` |
-    | Title | `varchar(150)` |
-    | Description | `varchar(150)` |
-    | Price | `DOUBLE` |
+        | Columns | Data type |
+        | ---- | ---- |
+        | ISBN | `INTEGER PRIMARY KEY` |
+        | Title | `varchar(150)` |
+        | Description | `varchar(150)` |
+        | Price | `DOUBLE` |
 
     - Sales:
 
-    | Columns | Data type |
-    | ---- | ---- |
-    | Sale_ID | `INTEGER PRIMARY KEY AUTOINCREMENT` |
-    | ISBN | `INTEGER` |
-    | Customer_ID | `INTEGER` |
-    | Quantity | `INTEGER` |
-    | Total_Price | `DOUBLE` |
+        | Columns | Data type |
+        | ---- | ---- |
+        | Sale_ID | `INTEGER PRIMARY KEY AUTOINCREMENT` |
+        | ISBN | `INTEGER` |
+        | Customer_ID | `INTEGER` |
+        | Quantity | `INTEGER` |
+        | Total_Price | `DOUBLE` |
 
 >[!TIP]
 >ตารางข้อมูลการขายให้ ID เป็น `AUTOINCREMENT` เพราะว่าเป็นข้อมูลการขายไม่จำเป็นจะต้องกรอก ID ที่เจาะจงเหมือนกับ `ข้อมูลลูกค้า` และ `ข้อมูลหนังสือ`
