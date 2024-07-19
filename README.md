@@ -113,5 +113,5 @@
 3. ได้ความรู้ใหม่ๆเกี่ยวกับการออกแบบ วิธีใช้งาน `XAML` `Visual studio` และ `Tool` ต่างๆ
 
 
-## ref
+## Referent
  - [Icon สวยๆ](https://www.flaticon.com/)
