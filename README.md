@@ -22,8 +22,8 @@
 
     - Customers
 
-| Columns | Data type |
-| ---- | ---- |
-| Customer_ID | Data 1 |
-| Customer_Name | Data 3 |
+    | Columns | Data type |
+    | ---- | ---- |
+    | Customer_ID | Data 1 |
+    | Customer_Name | Data 3 |
 
