@@ -109,4 +109,4 @@
 ## สรุปผลที่ได้
 
 1. ได้ทบทวนความรู้ที่ได้เรียนไป
-2. ได้ทดลองและพัฒนาต่อยอดจาก Project ก่อนหน้า `[BookStoreApp](https://github.com/Phiraphat0123/BookStoreApp)`
+2. ได้ทดลองและพัฒนาต่อยอดจาก Project ก่อนหน้า [BookStoreApp](https://github.com/Phiraphat0123/BookStoreApp)
